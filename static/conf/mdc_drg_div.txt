@@ -1,0 +1,6067 @@
+{
+  "status": "Success",
+  "resultSet": [
+    {
+      "mdc_code": "MDC01",
+      "mdc_name": "",
+      "counts": 67,
+      "cost": 2663045,
+      "part": 85485,
+      "apply": 2253443,
+      "ratio": 0.1082,
+      "diff_ratio": -0.1818,
+      "level2": [
+        {
+          "drg_code": "DRG00105",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 341310,
+          "part": 0,
+          "apply": 0,
+          "ratio": 0.0149,
+          "diff_ratio": 0.0,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 341310,
+              "part": 0,
+              "apply": 0,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG00203",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 563672,
+          "part": 0,
+          "apply": 564773,
+          "ratio": 0.0299,
+          "diff_ratio": 0.0019,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 563672,
+              "part": 0,
+              "apply": 564773,
+              "ratio": 1.0,
+              "diff_ratio": 0.0019
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG00207",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 294137,
+          "part": 0,
+          "apply": 295408,
+          "ratio": 0.0149,
+          "diff_ratio": 0.0043,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 294137,
+              "part": 0,
+              "apply": 295408,
+              "ratio": 1.0,
+              "diff_ratio": 0.0043
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG00602",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 84709,
+          "part": 8470,
+          "apply": 76915,
+          "ratio": 0.0597,
+          "diff_ratio": -0.1013,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 4,
+              "cost": 84709,
+              "part": 8470,
+              "apply": 76915,
+              "ratio": 1.0,
+              "diff_ratio": -0.1013
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG00714",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 193989,
+          "part": 1499,
+          "apply": 195116,
+          "ratio": 0.0597,
+          "diff_ratio": 0.0058,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 4,
+              "cost": 193989,
+              "part": 1499,
+              "apply": 195116,
+              "ratio": 1.0,
+              "diff_ratio": 0.0058
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG00813",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 31424,
+          "part": 1854,
+          "apply": 29993,
+          "ratio": 0.0299,
+          "diff_ratio": -0.0477,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18535,
+              "part": 1854,
+              "apply": 17019,
+              "ratio": 0.5,
+              "diff_ratio": -0.0891
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 12889,
+              "part": 0,
+              "apply": 12974,
+              "ratio": 0.5,
+              "diff_ratio": 0.0066
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG00814",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 82549,
+          "part": 7072,
+          "apply": 76240,
+          "ratio": 0.0597,
+          "diff_ratio": -0.0828,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 4,
+              "cost": 82549,
+              "part": 7072,
+              "apply": 76240,
+              "ratio": 1.0,
+              "diff_ratio": -0.0828
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01228",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 16571,
+          "part": 1657,
+          "apply": 15253,
+          "ratio": 0.0149,
+          "diff_ratio": -0.0864,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 16571,
+              "part": 1657,
+              "apply": 15253,
+              "ratio": 1.0,
+              "diff_ratio": -0.0864
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01516",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 56669,
+          "part": 5667,
+          "apply": 51171,
+          "ratio": 0.0149,
+          "diff_ratio": -0.1074,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 56669,
+              "part": 5667,
+              "apply": 51171,
+              "ratio": 1.0,
+              "diff_ratio": -0.1074
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01519",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 52250,
+          "part": 3105,
+          "apply": 49739,
+          "ratio": 0.0299,
+          "diff_ratio": -0.0505,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 2,
+              "cost": 52250,
+              "part": 3105,
+              "apply": 49739,
+              "ratio": 1.0,
+              "diff_ratio": -0.0505
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01520",
+          "drg_name": "",
+          "counts": 5,
+          "cost": 73181,
+          "part": 5151,
+          "apply": 69046,
+          "ratio": 0.0746,
+          "diff_ratio": -0.0599,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 5,
+              "cost": 73181,
+              "part": 5151,
+              "apply": 69046,
+              "ratio": 1.0,
+              "diff_ratio": -0.0599
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01605",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 21215,
+          "part": 2122,
+          "apply": 19432,
+          "ratio": 0.0149,
+          "diff_ratio": -0.0918,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21215,
+              "part": 2122,
+              "apply": 19432,
+              "ratio": 1.0,
+              "diff_ratio": -0.0918
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01802",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 5034,
+          "part": 503,
+          "apply": 4616,
+          "ratio": 0.0149,
+          "diff_ratio": -0.0906,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 5034,
+              "part": 503,
+              "apply": 4616,
+              "ratio": 1.0,
+              "diff_ratio": -0.0906
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG01902",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 19533,
+          "part": 1953,
+          "apply": 17749,
+          "ratio": 0.0149,
+          "diff_ratio": -0.1005,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 19533,
+              "part": 1953,
+              "apply": 17749,
+              "ratio": 1.0,
+              "diff_ratio": -0.1005
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02402",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 165420,
+          "part": 16542,
+          "apply": 150657,
+          "ratio": 0.0448,
+          "diff_ratio": -0.098,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 138584,
+              "part": 13858,
+              "apply": 126166,
+              "ratio": 0.6667,
+              "diff_ratio": -0.0984
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 26836,
+              "part": 2684,
+              "apply": 24491,
+              "ratio": 0.3333,
+              "diff_ratio": -0.0957
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02501",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 11667,
+          "part": 1167,
+          "apply": 10585,
+          "ratio": 0.0149,
+          "diff_ratio": -0.1022,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11667,
+              "part": 1167,
+              "apply": 10585,
+              "ratio": 1.0,
+              "diff_ratio": -0.1022
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02502",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 38369,
+          "part": 3837,
+          "apply": 34955,
+          "ratio": 0.0299,
+          "diff_ratio": -0.0977,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 23592,
+              "part": 2359,
+              "apply": 21487,
+              "ratio": 0.5,
+              "diff_ratio": -0.098
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14777,
+              "part": 1478,
+              "apply": 13468,
+              "ratio": 0.5,
+              "diff_ratio": -0.0972
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02503",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 11053,
+          "part": 1105,
+          "apply": 10372,
+          "ratio": 0.0149,
+          "diff_ratio": -0.0657,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11053,
+              "part": 1105,
+              "apply": 10372,
+              "ratio": 1.0,
+              "diff_ratio": -0.0657
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02606",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 9825,
+          "part": 0,
+          "apply": 9994,
+          "ratio": 0.0149,
+          "diff_ratio": 0.0169,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9825,
+              "part": 0,
+              "apply": 9994,
+              "ratio": 1.0,
+              "diff_ratio": 0.0169
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02608",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 8228,
+          "part": 823,
+          "apply": 7574,
+          "ratio": 0.0149,
+          "diff_ratio": -0.0863,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8228,
+              "part": 823,
+              "apply": 7574,
+              "ratio": 1.0,
+              "diff_ratio": -0.0863
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02805",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 89741,
+          "part": 2963,
+          "apply": 87541,
+          "ratio": 0.0448,
+          "diff_ratio": -0.0251,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 3,
+              "cost": 89741,
+              "part": 2963,
+              "apply": 87541,
+              "ratio": 1.0,
+              "diff_ratio": -0.0251
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG02905",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 32836,
+          "part": 3284,
+          "apply": 29890,
+          "ratio": 0.0299,
+          "diff_ratio": -0.0986,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 32836,
+              "part": 3284,
+              "apply": 29890,
+              "ratio": 1.0,
+              "diff_ratio": -0.0986
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG03004",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 33818,
+          "part": 2240,
+          "apply": 31916,
+          "ratio": 0.0299,
+          "diff_ratio": -0.0596,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 33818,
+              "part": 2240,
+              "apply": 31916,
+              "ratio": 1.0,
+              "diff_ratio": -0.0596
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG031",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 52154,
+          "part": 4130,
+          "apply": 48786,
+          "ratio": 0.0597,
+          "diff_ratio": -0.069,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 33119,
+              "part": 2226,
+              "apply": 31401,
+              "ratio": 0.75,
+              "diff_ratio": -0.0547
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 19035,
+              "part": 1904,
+              "apply": 17385,
+              "ratio": 0.25,
+              "diff_ratio": -0.0949
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG032",
+          "drg_name": "",
+          "counts": 11,
+          "cost": 113000,
+          "part": 8772,
+          "apply": 105838,
+          "ratio": 0.1642,
+          "diff_ratio": -0.0677,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 8,
+              "cost": 83906,
+              "part": 7014,
+              "apply": 78163,
+              "ratio": 0.7273,
+              "diff_ratio": -0.0735
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 3,
+              "cost": 29094,
+              "part": 1758,
+              "apply": 27675,
+              "ratio": 0.2727,
+              "diff_ratio": -0.0513
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG03302",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 26709,
+          "part": 0,
+          "apply": 27048,
+          "ratio": 0.0299,
+          "diff_ratio": 0.0125,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 26709,
+              "part": 0,
+              "apply": 27048,
+              "ratio": 1.0,
+              "diff_ratio": 0.0125
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46801",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 77498,
+          "part": 0,
+          "apply": 77498,
+          "ratio": 0.0149,
+          "diff_ratio": 0.0,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 77498,
+              "part": 0,
+              "apply": 77498,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 97831,
+              "part": 9783,
+              "apply": 89065,
+              "ratio": 2.0,
+              "diff_ratio": -0.0984
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21971,
+              "part": 2197,
+              "apply": 19774,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 63111,
+              "part": 0,
+              "apply": 63111,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 150231,
+              "part": 15023,
+              "apply": 136055,
+              "ratio": 1.0,
+              "diff_ratio": -0.1042
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 217385,
+              "part": 0,
+              "apply": 218571,
+              "ratio": 1.0,
+              "diff_ratio": 0.0054
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46802",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 140794,
+          "part": 0,
+          "apply": 141048,
+          "ratio": 0.0299,
+          "diff_ratio": 0.0018,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 100692,
+              "part": 0,
+              "apply": 100946,
+              "ratio": 0.5,
+              "diff_ratio": 0.0025
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 40102,
+              "part": 0,
+              "apply": 40102,
+              "ratio": 0.5,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15872,
+              "part": 1587,
+              "apply": 14454,
+              "ratio": 0.5,
+              "diff_ratio": -0.0981
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG47702",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 15690,
+          "part": 1569,
+          "apply": 14290,
+          "ratio": 0.0149,
+          "diff_ratio": -0.098,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15690,
+              "part": 1569,
+              "apply": 14290,
+              "ratio": 1.0,
+              "diff_ratio": -0.098
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11586,
+              "part": 1159,
+              "apply": 10766,
+              "ratio": 1.0,
+              "diff_ratio": -0.0762
+            },
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 39463,
+              "part": 3946,
+              "apply": 35856,
+              "ratio": 1.0,
+              "diff_ratio": -0.1006
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC03",
+      "mdc_name": "",
+      "counts": 28,
+      "cost": 419934,
+      "part": 28756,
+      "apply": 399059,
+      "ratio": 0.0452,
+      "diff_ratio": -0.0523,
+      "level2": [
+        {
+          "drg_code": "DRG05302",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 26026,
+          "part": 2603,
+          "apply": 25209,
+          "ratio": 0.0357,
+          "diff_ratio": -0.0324,
+          "level3": [
+            {
+              "d9": "09",
+              "div_name": "",
+              "counts": 1,
+              "cost": 26026,
+              "part": 2603,
+              "apply": 25209,
+              "ratio": 1.0,
+              "diff_ratio": -0.0324
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG06309",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 55949,
+          "part": 5595,
+          "apply": 50523,
+          "ratio": 0.0357,
+          "diff_ratio": -0.1074,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 55949,
+              "part": 5595,
+              "apply": 50523,
+              "ratio": 1.0,
+              "diff_ratio": -0.1074
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG065",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 23179,
+          "part": 2318,
+          "apply": 21284,
+          "ratio": 0.0714,
+          "diff_ratio": -0.089,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 2,
+              "cost": 23179,
+              "part": 2318,
+              "apply": 21284,
+              "ratio": 1.0,
+              "diff_ratio": -0.089
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG068",
+          "drg_name": "",
+          "counts": 9,
+          "cost": 72940,
+          "part": 6512,
+          "apply": 68035,
+          "ratio": 0.3214,
+          "diff_ratio": -0.0721,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 9,
+              "cost": 72940,
+              "part": 6512,
+              "apply": 68035,
+              "ratio": 1.0,
+              "diff_ratio": -0.0721
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG070",
+          "drg_name": "",
+          "counts": 12,
+          "cost": 131409,
+          "part": 7892,
+          "apply": 126312,
+          "ratio": 0.4286,
+          "diff_ratio": -0.0404,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 10,
+              "cost": 107628,
+              "part": 6260,
+              "apply": 103570,
+              "ratio": 0.8333,
+              "diff_ratio": -0.0392
+            },
+            {
+              "d9": "09",
+              "div_name": "",
+              "counts": 2,
+              "cost": 23781,
+              "part": 1632,
+              "apply": 22742,
+              "ratio": 0.1667,
+              "diff_ratio": -0.0457
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG07301",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 26769,
+          "part": 2677,
+          "apply": 24600,
+          "ratio": 0.0357,
+          "diff_ratio": -0.0882,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 26769,
+              "part": 2677,
+              "apply": 24600,
+              "ratio": 1.0,
+              "diff_ratio": -0.0882
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG18501",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 72076,
+          "part": 0,
+          "apply": 72330,
+          "ratio": 0.0357,
+          "diff_ratio": 0.0035,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 72076,
+              "part": 0,
+              "apply": 72330,
+              "ratio": 1.0,
+              "diff_ratio": 0.0035
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG47702",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 11586,
+          "part": 1159,
+          "apply": 10766,
+          "ratio": 0.0357,
+          "diff_ratio": -0.0762,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15690,
+              "part": 1569,
+              "apply": 14290,
+              "ratio": 1.0,
+              "diff_ratio": -0.098
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11586,
+              "part": 1159,
+              "apply": 10766,
+              "ratio": 1.0,
+              "diff_ratio": -0.0762
+            },
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 39463,
+              "part": 3946,
+              "apply": 35856,
+              "ratio": 1.0,
+              "diff_ratio": -0.1006
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC04",
+      "mdc_name": "",
+      "counts": 114,
+      "cost": 5448878,
+      "part": 148176,
+      "apply": 4921767,
+      "ratio": 0.1842,
+      "diff_ratio": -0.1071,
+      "level2": [
+        {
+          "drg_code": "DRG07603",
+          "drg_name": "",
+          "counts": 8,
+          "cost": 1217487,
+          "part": 24604,
+          "apply": 1182387,
+          "ratio": 0.0702,
+          "diff_ratio": -0.0297,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 4,
+              "cost": 406306,
+              "part": 24604,
+              "apply": 382549,
+              "ratio": 0.5,
+              "diff_ratio": -0.0621
+            },
+            {
+              "d9": "AC",
+              "div_name": "",
+              "counts": 4,
+              "cost": 811181,
+              "part": 0,
+              "apply": 799838,
+              "ratio": 0.5,
+              "diff_ratio": -0.0142
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG07801",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 127023,
+          "part": 12702,
+          "apply": 114575,
+          "ratio": 0.0175,
+          "diff_ratio": -0.1086,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 74802,
+              "part": 7480,
+              "apply": 67407,
+              "ratio": 0.5,
+              "diff_ratio": -0.1097
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 52221,
+              "part": 5222,
+              "apply": 47168,
+              "ratio": 0.5,
+              "diff_ratio": -0.1071
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG07901",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 12018,
+          "part": 0,
+          "apply": 12018,
+          "ratio": 0.0088,
+          "diff_ratio": 0.0,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 12018,
+              "part": 0,
+              "apply": 12018,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG07907",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 27145,
+          "part": 0,
+          "apply": 27738,
+          "ratio": 0.0088,
+          "diff_ratio": 0.0214,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 27145,
+              "part": 0,
+              "apply": 27738,
+              "ratio": 1.0,
+              "diff_ratio": 0.0214
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08302",
+          "drg_name": "",
+          "counts": 9,
+          "cost": 122179,
+          "part": 6826,
+          "apply": 117808,
+          "ratio": 0.0789,
+          "diff_ratio": -0.0371,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 9,
+              "cost": 122179,
+              "part": 6826,
+              "apply": 117808,
+              "ratio": 1.0,
+              "diff_ratio": -0.0371
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08402",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 18639,
+          "part": 1864,
+          "apply": 17283,
+          "ratio": 0.0175,
+          "diff_ratio": -0.0785,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 18639,
+              "part": 1864,
+              "apply": 17283,
+              "ratio": 1.0,
+              "diff_ratio": -0.0785
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG085",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 54145,
+          "part": 0,
+          "apply": 54992,
+          "ratio": 0.0175,
+          "diff_ratio": 0.0154,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 54145,
+              "part": 0,
+              "apply": 54992,
+              "ratio": 1.0,
+              "diff_ratio": 0.0154
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08701",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 59250,
+          "part": 5925,
+          "apply": 53834,
+          "ratio": 0.0088,
+          "diff_ratio": -0.1006,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 59250,
+              "part": 5925,
+              "apply": 53834,
+              "ratio": 1.0,
+              "diff_ratio": -0.1006
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08705",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 19894,
+          "part": 0,
+          "apply": 20318,
+          "ratio": 0.0088,
+          "diff_ratio": 0.0209,
+          "level3": [
+            {
+              "d9": "AC",
+              "div_name": "",
+              "counts": 1,
+              "cost": 19894,
+              "part": 0,
+              "apply": 20318,
+              "ratio": 1.0,
+              "diff_ratio": 0.0209
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08801",
+          "drg_name": "",
+          "counts": 6,
+          "cost": 98087,
+          "part": 9808,
+          "apply": 90057,
+          "ratio": 0.0526,
+          "diff_ratio": -0.0892,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 5,
+              "cost": 83403,
+              "part": 8340,
+              "apply": 76587,
+              "ratio": 0.8333,
+              "diff_ratio": -0.089
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14684,
+              "part": 1468,
+              "apply": 13470,
+              "ratio": 0.1667,
+              "diff_ratio": -0.0901
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08802",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 28097,
+          "part": 1613,
+          "apply": 27162,
+          "ratio": 0.0263,
+          "diff_ratio": -0.0344,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 28097,
+              "part": 1613,
+              "apply": 27162,
+              "ratio": 1.0,
+              "diff_ratio": -0.0344
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08901",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 176652,
+          "part": 2272,
+          "apply": 176497,
+          "ratio": 0.0351,
+          "diff_ratio": -0.00090,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 99862,
+              "part": 2272,
+              "apply": 99622,
+              "ratio": 0.75,
+              "diff_ratio": -0.0024
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 76790,
+              "part": 0,
+              "apply": 76875,
+              "ratio": 0.25,
+              "diff_ratio": 0.0011
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG08902",
+          "drg_name": "",
+          "counts": 12,
+          "cost": 314411,
+          "part": 25273,
+          "apply": 294306,
+          "ratio": 0.1053,
+          "diff_ratio": -0.0683,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 12,
+              "cost": 314411,
+              "part": 25273,
+              "apply": 294306,
+              "ratio": 1.0,
+              "diff_ratio": -0.0683
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09002",
+          "drg_name": "",
+          "counts": 6,
+          "cost": 117703,
+          "part": 9761,
+          "apply": 110906,
+          "ratio": 0.0526,
+          "diff_ratio": -0.0613,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 5,
+              "cost": 76313,
+              "part": 5622,
+              "apply": 72469,
+              "ratio": 0.8333,
+              "diff_ratio": -0.053
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 41390,
+              "part": 4139,
+              "apply": 38437,
+              "ratio": 0.1667,
+              "diff_ratio": -0.0768
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09101",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 67553,
+          "part": 3711,
+          "apply": 65028,
+          "ratio": 0.0263,
+          "diff_ratio": -0.0388,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 3,
+              "cost": 67553,
+              "part": 3711,
+              "apply": 65028,
+              "ratio": 1.0,
+              "diff_ratio": -0.0388
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09102",
+          "drg_name": "",
+          "counts": 11,
+          "cost": 120555,
+          "part": 9672,
+          "apply": 113342,
+          "ratio": 0.0965,
+          "diff_ratio": -0.0636,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 11,
+              "cost": 120555,
+              "part": 9672,
+              "apply": 113342,
+              "ratio": 1.0,
+              "diff_ratio": -0.0636
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG094",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 11404,
+          "part": 1140,
+          "apply": 10264,
+          "ratio": 0.0088,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11404,
+              "part": 1140,
+              "apply": 10264,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG095",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 46383,
+          "part": 0,
+          "apply": 47315,
+          "ratio": 0.0175,
+          "diff_ratio": 0.0197,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 46383,
+              "part": 0,
+              "apply": 47315,
+              "ratio": 1.0,
+              "diff_ratio": 0.0197
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09601",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 44056,
+          "part": 4406,
+          "apply": 40582,
+          "ratio": 0.0263,
+          "diff_ratio": -0.0856,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 44056,
+              "part": 4406,
+              "apply": 40582,
+              "ratio": 1.0,
+              "diff_ratio": -0.0856
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09602",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 22571,
+          "part": 2258,
+          "apply": 20905,
+          "ratio": 0.0263,
+          "diff_ratio": -0.0797,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 22571,
+              "part": 2258,
+              "apply": 20905,
+              "ratio": 1.0,
+              "diff_ratio": -0.0797
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09701",
+          "drg_name": "",
+          "counts": 7,
+          "cost": 82837,
+          "part": 8284,
+          "apply": 76417,
+          "ratio": 0.0614,
+          "diff_ratio": -0.084,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 7,
+              "cost": 82837,
+              "part": 8284,
+              "apply": 76417,
+              "ratio": 1.0,
+              "diff_ratio": -0.084
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09702",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 34325,
+          "part": 3433,
+          "apply": 31569,
+          "ratio": 0.0263,
+          "diff_ratio": -0.0873,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 34325,
+              "part": 3433,
+              "apply": 31569,
+              "ratio": 1.0,
+              "diff_ratio": -0.0873
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG09804",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 10780,
+          "part": 1078,
+          "apply": 9956,
+          "ratio": 0.0088,
+          "diff_ratio": -0.0828,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 1,
+              "cost": 10780,
+              "part": 1078,
+              "apply": 9956,
+              "ratio": 1.0,
+              "diff_ratio": -0.0828
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46801",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 97831,
+          "part": 9783,
+          "apply": 89065,
+          "ratio": 0.0175,
+          "diff_ratio": -0.0984,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 77498,
+              "part": 0,
+              "apply": 77498,
+              "ratio": 0.5,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 97831,
+              "part": 9783,
+              "apply": 89065,
+              "ratio": 1.0,
+              "diff_ratio": -0.0984
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21971,
+              "part": 2197,
+              "apply": 19774,
+              "ratio": 0.5,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 63111,
+              "part": 0,
+              "apply": 63111,
+              "ratio": 0.5,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 150231,
+              "part": 15023,
+              "apply": 136055,
+              "ratio": 0.5,
+              "diff_ratio": -0.1042
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 217385,
+              "part": 0,
+              "apply": 218571,
+              "ratio": 0.5,
+              "diff_ratio": 0.0054
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG47501",
+          "drg_name": "",
+          "counts": 19,
+          "cost": 2480221,
+          "part": 0,
+          "apply": 2083574,
+          "ratio": 0.1667,
+          "diff_ratio": -0.1904,
+          "level3": [
+            {
+              "d9": "AC",
+              "div_name": "",
+              "counts": 19,
+              "cost": 2480221,
+              "part": 0,
+              "apply": 2083574,
+              "ratio": 1.0,
+              "diff_ratio": -0.1904
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG47503",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 37632,
+          "part": 3763,
+          "apply": 33869,
+          "ratio": 0.0088,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 37632,
+              "part": 3763,
+              "apply": 33869,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC05",
+      "mdc_name": "",
+      "counts": 40,
+      "cost": 3081363,
+      "part": 278979,
+      "apply": 2869442,
+      "ratio": 0.0646,
+      "diff_ratio": -0.0739,
+      "level2": [
+        {
+          "drg_code": "DRG11004",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 150845,
+          "part": 15085,
+          "apply": 135760,
+          "ratio": 0.025,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 150845,
+              "part": 15085,
+              "apply": 135760,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG11201",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 223297,
+          "part": 0,
+          "apply": 223466,
+          "ratio": 0.025,
+          "diff_ratio": 0.00080,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 223297,
+              "part": 0,
+              "apply": 223466,
+              "ratio": 1.0,
+              "diff_ratio": 0.00080
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG11202",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 489198,
+          "part": 48920,
+          "apply": 452464,
+          "ratio": 0.1,
+          "diff_ratio": -0.0812,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 4,
+              "cost": 489198,
+              "part": 48920,
+              "apply": 452464,
+              "ratio": 1.0,
+              "diff_ratio": -0.0812
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG11306",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 22572,
+          "part": 2257,
+          "apply": 32620,
+          "ratio": 0.025,
+          "diff_ratio": 0.308,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 22572,
+              "part": 2257,
+              "apply": 32620,
+              "ratio": 1.0,
+              "diff_ratio": 0.308
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG11601",
+          "drg_name": "",
+          "counts": 5,
+          "cost": 546449,
+          "part": 54646,
+          "apply": 492905,
+          "ratio": 0.125,
+          "diff_ratio": -0.1086,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 5,
+              "cost": 546449,
+              "part": 54646,
+              "apply": 492905,
+              "ratio": 1.0,
+              "diff_ratio": -0.1086
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG11602",
+          "drg_name": "",
+          "counts": 6,
+          "cost": 1187839,
+          "part": 118785,
+          "apply": 1071510,
+          "ratio": 0.15,
+          "diff_ratio": -0.1086,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 6,
+              "cost": 1187839,
+              "part": 118785,
+              "apply": 1071510,
+              "ratio": 1.0,
+              "diff_ratio": -0.1086
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG124",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 51077,
+          "part": 5108,
+          "apply": 49347,
+          "ratio": 0.025,
+          "diff_ratio": -0.0351,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 51077,
+              "part": 5108,
+              "apply": 49347,
+              "ratio": 1.0,
+              "diff_ratio": -0.0351
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG125",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 20651,
+          "part": 2065,
+          "apply": 36453,
+          "ratio": 0.025,
+          "diff_ratio": 0.4335,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 20651,
+              "part": 2065,
+              "apply": 36453,
+              "ratio": 1.0,
+              "diff_ratio": 0.4335
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG12704",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 25702,
+          "part": 2570,
+          "apply": 23132,
+          "ratio": 0.025,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 25702,
+              "part": 2570,
+              "apply": 23132,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG12707",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 36035,
+          "part": 3604,
+          "apply": 32939,
+          "ratio": 0.075,
+          "diff_ratio": -0.094,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8116,
+              "part": 812,
+              "apply": 7473,
+              "ratio": 0.3333,
+              "diff_ratio": -0.086
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 2,
+              "cost": 27919,
+              "part": 2792,
+              "apply": 25466,
+              "ratio": 0.6667,
+              "diff_ratio": -0.0963
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13002",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 10620,
+          "part": 1062,
+          "apply": 8415,
+          "ratio": 0.025,
+          "diff_ratio": -0.262,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 10620,
+              "part": 1062,
+              "apply": 8415,
+              "ratio": 1.0,
+              "diff_ratio": -0.262
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13401",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 56085,
+          "part": 5608,
+          "apply": 50972,
+          "ratio": 0.05,
+          "diff_ratio": -0.1003,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 38632,
+              "part": 3863,
+              "apply": 27076,
+              "ratio": 0.5,
+              "diff_ratio": -0.4268
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 17453,
+              "part": 1745,
+              "apply": 23896,
+              "ratio": 0.5,
+              "diff_ratio": 0.2696
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13402",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 9934,
+          "part": 993,
+          "apply": 17999,
+          "ratio": 0.025,
+          "diff_ratio": 0.4481,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9934,
+              "part": 993,
+              "apply": 17999,
+              "ratio": 1.0,
+              "diff_ratio": 0.4481
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13803",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 40940,
+          "part": 2638,
+          "apply": 56279,
+          "ratio": 0.05,
+          "diff_ratio": 0.2726,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 2,
+              "cost": 40940,
+              "part": 2638,
+              "apply": 56279,
+              "ratio": 1.0,
+              "diff_ratio": 0.2726
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13804",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 48664,
+          "part": 4866,
+          "apply": 30102,
+          "ratio": 0.025,
+          "diff_ratio": -0.6166,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 48664,
+              "part": 4866,
+              "apply": 30102,
+              "ratio": 1.0,
+              "diff_ratio": -0.6166
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13902",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 62674,
+          "part": 3847,
+          "apply": 54300,
+          "ratio": 0.075,
+          "diff_ratio": -0.1542,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 520,
+              "part": 0,
+              "apply": 520,
+              "ratio": 0.3333,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 38468,
+              "part": 3847,
+              "apply": 27161,
+              "ratio": 0.3333,
+              "diff_ratio": -0.4163
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 23686,
+              "part": 0,
+              "apply": 26619,
+              "ratio": 0.3333,
+              "diff_ratio": 0.1102
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG13903",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 20656,
+          "part": 2066,
+          "apply": 17292,
+          "ratio": 0.025,
+          "diff_ratio": -0.1945,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 20656,
+              "part": 2066,
+              "apply": 17292,
+              "ratio": 1.0,
+              "diff_ratio": -0.1945
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG14202",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 16394,
+          "part": 1639,
+          "apply": 21047,
+          "ratio": 0.025,
+          "diff_ratio": 0.2211,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 16394,
+              "part": 1639,
+              "apply": 21047,
+              "ratio": 1.0,
+              "diff_ratio": 0.2211
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG143",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 10225,
+          "part": 1023,
+          "apply": 19458,
+          "ratio": 0.025,
+          "diff_ratio": 0.4745,
+          "level3": [
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 10225,
+              "part": 1023,
+              "apply": 19458,
+              "ratio": 1.0,
+              "diff_ratio": 0.4745
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG14503",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 29535,
+          "part": 0,
+          "apply": 23208,
+          "ratio": 0.05,
+          "diff_ratio": -0.2726,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 29535,
+              "part": 0,
+              "apply": 23208,
+              "ratio": 1.0,
+              "diff_ratio": -0.2726
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46801",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 21971,
+          "part": 2197,
+          "apply": 19774,
+          "ratio": 0.025,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 77498,
+              "part": 0,
+              "apply": 77498,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 97831,
+              "part": 9783,
+              "apply": 89065,
+              "ratio": 2.0,
+              "diff_ratio": -0.0984
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21971,
+              "part": 2197,
+              "apply": 19774,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 63111,
+              "part": 0,
+              "apply": 63111,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 150231,
+              "part": 15023,
+              "apply": 136055,
+              "ratio": 1.0,
+              "diff_ratio": -0.1042
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 217385,
+              "part": 0,
+              "apply": 218571,
+              "ratio": 1.0,
+              "diff_ratio": 0.0054
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC06",
+      "mdc_name": "",
+      "counts": 62,
+      "cost": 1916360,
+      "part": 154613,
+      "apply": 1757562,
+      "ratio": 0.1002,
+      "diff_ratio": -0.0904,
+      "level2": [
+        {
+          "drg_code": "DRG15802",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 28236,
+          "part": 2824,
+          "apply": 23873,
+          "ratio": 0.0161,
+          "diff_ratio": -0.1828,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 28236,
+              "part": 2824,
+              "apply": 23873,
+              "ratio": 1.0,
+              "diff_ratio": -0.1828
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG16102",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 31305,
+          "part": 3131,
+          "apply": 35780,
+          "ratio": 0.0161,
+          "diff_ratio": 0.1251,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 31305,
+              "part": 3131,
+              "apply": 35780,
+              "ratio": 1.0,
+              "diff_ratio": 0.1251
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG16501",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 63415,
+          "part": 6342,
+          "apply": 57807,
+          "ratio": 0.0161,
+          "diff_ratio": -0.097,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 63415,
+              "part": 6342,
+              "apply": 57807,
+              "ratio": 1.0,
+              "diff_ratio": -0.097
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG16502",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 65307,
+          "part": 6531,
+          "apply": 50051,
+          "ratio": 0.0161,
+          "diff_ratio": -0.3048,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 65307,
+              "part": 6531,
+              "apply": 50051,
+              "ratio": 1.0,
+              "diff_ratio": -0.3048
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG16702",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 112636,
+          "part": 11263,
+          "apply": 83531,
+          "ratio": 0.0484,
+          "diff_ratio": -0.3484,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 112636,
+              "part": 11263,
+              "apply": 83531,
+              "ratio": 1.0,
+              "diff_ratio": -0.3484
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG17404",
+          "drg_name": "",
+          "counts": 12,
+          "cost": 364016,
+          "part": 33704,
+          "apply": 333868,
+          "ratio": 0.1935,
+          "diff_ratio": -0.0903,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 12,
+              "cost": 364016,
+              "part": 33704,
+              "apply": 333868,
+              "ratio": 1.0,
+              "diff_ratio": -0.0903
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG17407",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 284088,
+          "part": 28409,
+          "apply": 256950,
+          "ratio": 0.0161,
+          "diff_ratio": -0.1056,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 284088,
+              "part": 28409,
+              "apply": 256950,
+              "ratio": 1.0,
+              "diff_ratio": -0.1056
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG17504",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 45498,
+          "part": 4550,
+          "apply": 41202,
+          "ratio": 0.0161,
+          "diff_ratio": -0.1043,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 45498,
+              "part": 4550,
+              "apply": 41202,
+              "ratio": 1.0,
+              "diff_ratio": -0.1043
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG17507",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 14174,
+          "part": 1417,
+          "apply": 13011,
+          "ratio": 0.0161,
+          "diff_ratio": -0.0894,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14174,
+              "part": 1417,
+              "apply": 13011,
+              "ratio": 1.0,
+              "diff_ratio": -0.0894
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG177",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 191516,
+          "part": 0,
+          "apply": 192702,
+          "ratio": 0.0161,
+          "diff_ratio": 0.0062,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 191516,
+              "part": 0,
+              "apply": 192702,
+              "ratio": 1.0,
+              "diff_ratio": 0.0062
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG178",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 40624,
+          "part": 4062,
+          "apply": 37070,
+          "ratio": 0.0645,
+          "diff_ratio": -0.0959,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 28773,
+              "part": 2877,
+              "apply": 26319,
+              "ratio": 0.75,
+              "diff_ratio": -0.0932
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11851,
+              "part": 1185,
+              "apply": 10751,
+              "ratio": 0.25,
+              "diff_ratio": -0.1023
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG18001",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 20565,
+          "part": 989,
+          "apply": 19999,
+          "ratio": 0.0323,
+          "diff_ratio": -0.0283,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 20565,
+              "part": 989,
+              "apply": 19999,
+              "ratio": 1.0,
+              "diff_ratio": -0.0283
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG18101",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 58687,
+          "part": 5869,
+          "apply": 53496,
+          "ratio": 0.0645,
+          "diff_ratio": -0.097,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 4,
+              "cost": 58687,
+              "part": 5869,
+              "apply": 53496,
+              "ratio": 1.0,
+              "diff_ratio": -0.097
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG182",
+          "drg_name": "",
+          "counts": 13,
+          "cost": 231251,
+          "part": 18633,
+          "apply": 216260,
+          "ratio": 0.2097,
+          "diff_ratio": -0.0693,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 9,
+              "cost": 113993,
+              "part": 10366,
+              "apply": 105490,
+              "ratio": 0.6923,
+              "diff_ratio": -0.0806
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 4,
+              "cost": 117258,
+              "part": 8267,
+              "apply": 110770,
+              "ratio": 0.3077,
+              "diff_ratio": -0.0586
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG183",
+          "drg_name": "",
+          "counts": 11,
+          "cost": 119503,
+          "part": 11187,
+          "apply": 110770,
+          "ratio": 0.1774,
+          "diff_ratio": -0.0788,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 9,
+              "cost": 85333,
+              "part": 7770,
+              "apply": 79339,
+              "ratio": 0.8182,
+              "diff_ratio": -0.0755
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 25262,
+              "part": 2526,
+              "apply": 23329,
+              "ratio": 0.0909,
+              "diff_ratio": -0.0829
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8908,
+              "part": 891,
+              "apply": 8102,
+              "ratio": 0.0909,
+              "diff_ratio": -0.0995
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG18802",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 13381,
+          "part": 0,
+          "apply": 13635,
+          "ratio": 0.0161,
+          "diff_ratio": 0.0186,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 13381,
+              "part": 0,
+              "apply": 13635,
+              "ratio": 1.0,
+              "diff_ratio": 0.0186
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG18805",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 12024,
+          "part": 0,
+          "apply": 12109,
+          "ratio": 0.0161,
+          "diff_ratio": 0.007,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 12024,
+              "part": 0,
+              "apply": 12109,
+              "ratio": 1.0,
+              "diff_ratio": 0.007
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG19009",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 6792,
+          "part": 679,
+          "apply": 6282,
+          "ratio": 0.0161,
+          "diff_ratio": -0.0812,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 6792,
+              "part": 679,
+              "apply": 6282,
+              "ratio": 1.0,
+              "diff_ratio": -0.0812
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46801",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 213342,
+          "part": 15023,
+          "apply": 199166,
+          "ratio": 0.0323,
+          "diff_ratio": -0.0712,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 77498,
+              "part": 0,
+              "apply": 77498,
+              "ratio": 0.5,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 97831,
+              "part": 9783,
+              "apply": 89065,
+              "ratio": 1.0,
+              "diff_ratio": -0.0984
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21971,
+              "part": 2197,
+              "apply": 19774,
+              "ratio": 0.5,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 63111,
+              "part": 0,
+              "apply": 63111,
+              "ratio": 0.5,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 150231,
+              "part": 15023,
+              "apply": 136055,
+              "ratio": 0.5,
+              "diff_ratio": -0.1042
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 217385,
+              "part": 0,
+              "apply": 218571,
+              "ratio": 0.5,
+              "diff_ratio": 0.0054
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC07",
+      "mdc_name": "",
+      "counts": 29,
+      "cost": 897339,
+      "part": 73287,
+      "apply": 847339,
+      "ratio": 0.0468,
+      "diff_ratio": -0.059,
+      "level2": [
+        {
+          "drg_code": "DRG19403",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 41189,
+          "part": 4119,
+          "apply": 37409,
+          "ratio": 0.0345,
+          "diff_ratio": -0.101,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 41189,
+              "part": 4119,
+              "apply": 37409,
+              "ratio": 1.0,
+              "diff_ratio": -0.101
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG198",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 93464,
+          "part": 0,
+          "apply": 93803,
+          "ratio": 0.069,
+          "diff_ratio": 0.0036,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 93464,
+              "part": 0,
+              "apply": 93803,
+              "ratio": 1.0,
+              "diff_ratio": 0.0036
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20001",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 75575,
+          "part": 7558,
+          "apply": 68610,
+          "ratio": 0.0345,
+          "diff_ratio": -0.1015,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 75575,
+              "part": 7558,
+              "apply": 68610,
+              "ratio": 1.0,
+              "diff_ratio": -0.1015
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20201",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 29854,
+          "part": 1008,
+          "apply": 29354,
+          "ratio": 0.069,
+          "diff_ratio": -0.017,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 29854,
+              "part": 1008,
+              "apply": 29354,
+              "ratio": 1.0,
+              "diff_ratio": -0.017
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20202",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 7568,
+          "part": 757,
+          "apply": 6980,
+          "ratio": 0.0345,
+          "diff_ratio": -0.0842,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 7568,
+              "part": 757,
+              "apply": 6980,
+              "ratio": 1.0,
+              "diff_ratio": -0.0842
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20205",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 34531,
+          "part": 3453,
+          "apply": 31248,
+          "ratio": 0.0345,
+          "diff_ratio": -0.1051,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 34531,
+              "part": 3453,
+              "apply": 31248,
+              "ratio": 1.0,
+              "diff_ratio": -0.1051
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20206",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 41241,
+          "part": 1931,
+          "apply": 39818,
+          "ratio": 0.069,
+          "diff_ratio": -0.0357,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 41241,
+              "part": 1931,
+              "apply": 39818,
+              "ratio": 1.0,
+              "diff_ratio": -0.0357
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20209",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 35249,
+          "part": 1966,
+          "apply": 33875,
+          "ratio": 0.069,
+          "diff_ratio": -0.0406,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 35249,
+              "part": 1966,
+              "apply": 33875,
+              "ratio": 1.0,
+              "diff_ratio": -0.0406
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20210",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 13730,
+          "part": 0,
+          "apply": 13984,
+          "ratio": 0.0345,
+          "diff_ratio": 0.0182,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 13730,
+              "part": 0,
+              "apply": 13984,
+              "ratio": 1.0,
+              "diff_ratio": 0.0182
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20413",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 47779,
+          "part": 4778,
+          "apply": 43933,
+          "ratio": 0.069,
+          "diff_ratio": -0.0875,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 47779,
+              "part": 4778,
+              "apply": 43933,
+              "ratio": 1.0,
+              "diff_ratio": -0.0875
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20414",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 63493,
+          "part": 6350,
+          "apply": 57905,
+          "ratio": 0.1379,
+          "diff_ratio": -0.0965,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 4,
+              "cost": 63493,
+              "part": 6350,
+              "apply": 57905,
+              "ratio": 1.0,
+              "diff_ratio": -0.0965
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20510",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 10939,
+          "part": 1094,
+          "apply": 10014,
+          "ratio": 0.0345,
+          "diff_ratio": -0.0924,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 10939,
+              "part": 1094,
+              "apply": 10014,
+              "ratio": 1.0,
+              "diff_ratio": -0.0924
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20703",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 109744,
+          "part": 10974,
+          "apply": 100125,
+          "ratio": 0.1379,
+          "diff_ratio": -0.0961,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 20760,
+              "part": 2076,
+              "apply": 18938,
+              "ratio": 0.25,
+              "diff_ratio": -0.0962
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 88984,
+              "part": 8898,
+              "apply": 81187,
+              "ratio": 0.75,
+              "diff_ratio": -0.096
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG49402",
+          "drg_name": "",
+          "counts": 5,
+          "cost": 292983,
+          "part": 29299,
+          "apply": 280281,
+          "ratio": 0.1724,
+          "diff_ratio": -0.0453,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 5,
+              "cost": 292983,
+              "part": 29299,
+              "apply": 280281,
+              "ratio": 1.0,
+              "diff_ratio": -0.0453
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC08",
+      "mdc_name": "",
+      "counts": 74,
+      "cost": 3601713,
+      "part": 314038,
+      "apply": 3636604,
+      "ratio": 0.1195,
+      "diff_ratio": 0.0096,
+      "level2": [
+        {
+          "drg_code": "DRG20904",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 173701,
+          "part": 17371,
+          "apply": 169217,
+          "ratio": 0.027,
+          "diff_ratio": -0.0265,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 2,
+              "cost": 173701,
+              "part": 17371,
+              "apply": 169217,
+              "ratio": 1.0,
+              "diff_ratio": -0.0265
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG20905",
+          "drg_name": "",
+          "counts": 6,
+          "cost": 666110,
+          "part": 66612,
+          "apply": 714621,
+          "ratio": 0.0811,
+          "diff_ratio": 0.0679,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 6,
+              "cost": 666110,
+              "part": 66612,
+              "apply": 714621,
+              "ratio": 1.0,
+              "diff_ratio": 0.0679
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21003",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 74481,
+          "part": 7448,
+          "apply": 70254,
+          "ratio": 0.0135,
+          "diff_ratio": -0.0602,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 74481,
+              "part": 7448,
+              "apply": 70254,
+              "ratio": 1.0,
+              "diff_ratio": -0.0602
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21102",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 64238,
+          "part": 0,
+          "apply": 69917,
+          "ratio": 0.027,
+          "diff_ratio": 0.0812,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 2,
+              "cost": 64238,
+              "part": 0,
+              "apply": 69917,
+              "ratio": 1.0,
+              "diff_ratio": 0.0812
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21205",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 54567,
+          "part": 0,
+          "apply": 76897,
+          "ratio": 0.0135,
+          "diff_ratio": 0.2904,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 54567,
+              "part": 0,
+              "apply": 76897,
+              "ratio": 1.0,
+              "diff_ratio": 0.2904
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21702",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 60641,
+          "part": 0,
+          "apply": 66319,
+          "ratio": 0.027,
+          "diff_ratio": 0.0856,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 60641,
+              "part": 0,
+              "apply": 66319,
+              "ratio": 1.0,
+              "diff_ratio": 0.0856
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21703",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 61883,
+          "part": 0,
+          "apply": 102805,
+          "ratio": 0.027,
+          "diff_ratio": 0.3981,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 61883,
+              "part": 0,
+              "apply": 102805,
+              "ratio": 1.0,
+              "diff_ratio": 0.3981
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21804",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 42192,
+          "part": 4219,
+          "apply": 54691,
+          "ratio": 0.0135,
+          "diff_ratio": 0.2285,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 42192,
+              "part": 4219,
+              "apply": 54691,
+              "ratio": 1.0,
+              "diff_ratio": 0.2285
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG21904",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 24000,
+          "part": 2400,
+          "apply": 40289,
+          "ratio": 0.0135,
+          "diff_ratio": 0.4043,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 24000,
+              "part": 2400,
+              "apply": 40289,
+              "ratio": 1.0,
+              "diff_ratio": 0.4043
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG22403",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 95739,
+          "part": 9575,
+          "apply": 85462,
+          "ratio": 0.0405,
+          "diff_ratio": -0.1203,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 2,
+              "cost": 77474,
+              "part": 7748,
+              "apply": 68855,
+              "ratio": 0.6667,
+              "diff_ratio": -0.1252
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18265,
+              "part": 1827,
+              "apply": 16607,
+              "ratio": 0.3333,
+              "diff_ratio": -0.0998
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG22404",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 55043,
+          "part": 5505,
+          "apply": 55989,
+          "ratio": 0.027,
+          "diff_ratio": 0.0169,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 2,
+              "cost": 55043,
+              "part": 5505,
+              "apply": 55989,
+              "ratio": 1.0,
+              "diff_ratio": 0.0169
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG22601",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 18180,
+          "part": 1818,
+          "apply": 31875,
+          "ratio": 0.0135,
+          "diff_ratio": 0.4296,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18180,
+              "part": 1818,
+              "apply": 31875,
+              "ratio": 1.0,
+              "diff_ratio": 0.4296
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG22701",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 51226,
+          "part": 5123,
+          "apply": 33214,
+          "ratio": 0.027,
+          "diff_ratio": -0.5423,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 25996,
+              "part": 2600,
+              "apply": 24909,
+              "ratio": 0.5,
+              "diff_ratio": -0.0436
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 25230,
+              "part": 2523,
+              "apply": 8305,
+              "ratio": 0.5,
+              "diff_ratio": -2.0379
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG22904",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 50038,
+          "part": 5004,
+          "apply": 47824,
+          "ratio": 0.027,
+          "diff_ratio": -0.0463,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 19889,
+              "part": 1989,
+              "apply": 23479,
+              "ratio": 0.5,
+              "diff_ratio": 0.1529
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 30149,
+              "part": 3015,
+              "apply": 24345,
+              "ratio": 0.5,
+              "diff_ratio": -0.2384
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23008",
+          "drg_name": "",
+          "counts": 5,
+          "cost": 76185,
+          "part": 5069,
+          "apply": 72733,
+          "ratio": 0.0676,
+          "diff_ratio": -0.0475,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 5,
+              "cost": 76185,
+              "part": 5069,
+              "apply": 72733,
+              "ratio": 1.0,
+              "diff_ratio": -0.0475
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23010",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 18516,
+          "part": 0,
+          "apply": 18249,
+          "ratio": 0.0135,
+          "diff_ratio": -0.0146,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18516,
+              "part": 0,
+              "apply": 18249,
+              "ratio": 1.0,
+              "diff_ratio": -0.0146
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23102",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 24750,
+          "part": 2475,
+          "apply": 29267,
+          "ratio": 0.0135,
+          "diff_ratio": 0.1543,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 24750,
+              "part": 2475,
+              "apply": 29267,
+              "ratio": 1.0,
+              "diff_ratio": 0.1543
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23401",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 38565,
+          "part": 0,
+          "apply": 47309,
+          "ratio": 0.027,
+          "diff_ratio": 0.1848,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 38565,
+              "part": 0,
+              "apply": 47309,
+              "ratio": 1.0,
+              "diff_ratio": 0.1848
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23402",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 35167,
+          "part": 3517,
+          "apply": 29085,
+          "ratio": 0.0135,
+          "diff_ratio": -0.2091,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 35167,
+              "part": 3517,
+              "apply": 29085,
+              "ratio": 1.0,
+              "diff_ratio": -0.2091
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23502",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 33522,
+          "part": 0,
+          "apply": 31820,
+          "ratio": 0.0135,
+          "diff_ratio": -0.0535,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 33522,
+              "part": 0,
+              "apply": 31820,
+              "ratio": 1.0,
+              "diff_ratio": -0.0535
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG23902",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 15463,
+          "part": 1546,
+          "apply": 18115,
+          "ratio": 0.0135,
+          "diff_ratio": 0.1464,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15463,
+              "part": 1546,
+              "apply": 18115,
+              "ratio": 1.0,
+              "diff_ratio": 0.1464
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG24302",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 40902,
+          "part": 4091,
+          "apply": 52716,
+          "ratio": 0.0405,
+          "diff_ratio": 0.2241,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 3,
+              "cost": 40902,
+              "part": 4091,
+              "apply": 52716,
+              "ratio": 1.0,
+              "diff_ratio": 0.2241
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG24304",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 28720,
+          "part": 2872,
+          "apply": 20669,
+          "ratio": 0.0135,
+          "diff_ratio": -0.3895,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 28720,
+              "part": 2872,
+              "apply": 20669,
+              "ratio": 1.0,
+              "diff_ratio": -0.3895
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG24305",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 33706,
+          "part": 0,
+          "apply": 37849,
+          "ratio": 0.0405,
+          "diff_ratio": 0.1095,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 18728,
+              "part": 0,
+              "apply": 19139,
+              "ratio": 0.6667,
+              "diff_ratio": 0.0215
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14978,
+              "part": 0,
+              "apply": 18710,
+              "ratio": 0.3333,
+              "diff_ratio": 0.1995
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG244",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 9785,
+          "part": 979,
+          "apply": 20226,
+          "ratio": 0.0135,
+          "diff_ratio": 0.5162,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9785,
+              "part": 979,
+              "apply": 20226,
+              "ratio": 1.0,
+              "diff_ratio": 0.5162
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG245",
+          "drg_name": "",
+          "counts": 5,
+          "cost": 31595,
+          "part": 2565,
+          "apply": 46533,
+          "ratio": 0.0676,
+          "diff_ratio": 0.321,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 13917,
+              "part": 797,
+              "apply": 27230,
+              "ratio": 0.6,
+              "diff_ratio": 0.4889
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 17678,
+              "part": 1768,
+              "apply": 19303,
+              "ratio": 0.4,
+              "diff_ratio": 0.0842
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG24801",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 41354,
+          "part": 1032,
+          "apply": 43371,
+          "ratio": 0.0405,
+          "diff_ratio": 0.0465,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 41354,
+              "part": 1032,
+              "apply": 43371,
+              "ratio": 1.0,
+              "diff_ratio": 0.0465
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG24904",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 5983,
+          "part": 598,
+          "apply": 17073,
+          "ratio": 0.0135,
+          "diff_ratio": 0.6496,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 5983,
+              "part": 598,
+              "apply": 17073,
+              "ratio": 1.0,
+              "diff_ratio": 0.6496
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG251",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 9169,
+          "part": 917,
+          "apply": 5816,
+          "ratio": 0.0135,
+          "diff_ratio": -0.5765,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9169,
+              "part": 917,
+              "apply": 5816,
+              "ratio": 1.0,
+              "diff_ratio": -0.5765
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG252",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 6800,
+          "part": 0,
+          "apply": 16693,
+          "ratio": 0.0135,
+          "diff_ratio": 0.5926,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 6800,
+              "part": 0,
+              "apply": 16693,
+              "ratio": 1.0,
+              "diff_ratio": 0.5926
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG254",
+          "drg_name": "",
+          "counts": 6,
+          "cost": 75571,
+          "part": 4910,
+          "apply": 74094,
+          "ratio": 0.0811,
+          "diff_ratio": -0.0199,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 34293,
+              "part": 782,
+              "apply": 38288,
+              "ratio": 0.5,
+              "diff_ratio": 0.1043
+            },
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 3,
+              "cost": 41278,
+              "part": 4128,
+              "apply": 35806,
+              "ratio": 0.5,
+              "diff_ratio": -0.1528
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG49902",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 984607,
+          "part": 98461,
+          "apply": 889025,
+          "ratio": 0.0541,
+          "diff_ratio": -0.1075,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 4,
+              "cost": 984607,
+              "part": 98461,
+              "apply": 889025,
+              "ratio": 1.0,
+              "diff_ratio": -0.1075
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG50002",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 543659,
+          "part": 54366,
+          "apply": 491157,
+          "ratio": 0.0405,
+          "diff_ratio": -0.1069,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 3,
+              "cost": 543659,
+              "part": 54366,
+              "apply": 491157,
+              "ratio": 1.0,
+              "diff_ratio": -0.1069
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG50304",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 55655,
+          "part": 5565,
+          "apply": 55430,
+          "ratio": 0.027,
+          "diff_ratio": -0.0041,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 2,
+              "cost": 55655,
+              "part": 5565,
+              "apply": 55430,
+              "ratio": 1.0,
+              "diff_ratio": -0.0041
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC09",
+      "mdc_name": "",
+      "counts": 55,
+      "cost": 1089323,
+      "part": 91788,
+      "apply": 1015325,
+      "ratio": 0.0889,
+      "diff_ratio": -0.0729,
+      "level2": [
+        {
+          "drg_code": "DRG26102",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 17799,
+          "part": 1780,
+          "apply": 16104,
+          "ratio": 0.0182,
+          "diff_ratio": -0.1053,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 17799,
+              "part": 1780,
+              "apply": 16104,
+              "ratio": 1.0,
+              "diff_ratio": -0.1053
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26302",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 66432,
+          "part": 6643,
+          "apply": 60805,
+          "ratio": 0.0182,
+          "diff_ratio": -0.0925,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 66432,
+              "part": 6643,
+              "apply": 60805,
+              "ratio": 1.0,
+              "diff_ratio": -0.0925
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26303",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 187292,
+          "part": 16154,
+          "apply": 173511,
+          "ratio": 0.0727,
+          "diff_ratio": -0.0794,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 79252,
+              "part": 7925,
+              "apply": 72598,
+              "ratio": 0.25,
+              "diff_ratio": -0.0917
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 25747,
+              "part": 0,
+              "apply": 26171,
+              "ratio": 0.5,
+              "diff_ratio": 0.0162
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 82293,
+              "part": 8229,
+              "apply": 74742,
+              "ratio": 0.25,
+              "diff_ratio": -0.101
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26403",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 16852,
+          "part": 0,
+          "apply": 17191,
+          "ratio": 0.0364,
+          "diff_ratio": 0.0197,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 16852,
+              "part": 0,
+              "apply": 17191,
+              "ratio": 1.0,
+              "diff_ratio": 0.0197
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26502",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 52756,
+          "part": 5275,
+          "apply": 47904,
+          "ratio": 0.0364,
+          "diff_ratio": -0.1013,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 52756,
+              "part": 5275,
+              "apply": 47904,
+              "ratio": 1.0,
+              "diff_ratio": -0.1013
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26503",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 43942,
+          "part": 4394,
+          "apply": 40310,
+          "ratio": 0.0364,
+          "diff_ratio": -0.0901,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 29703,
+              "part": 2970,
+              "apply": 27326,
+              "ratio": 0.5,
+              "diff_ratio": -0.087
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14239,
+              "part": 1424,
+              "apply": 12984,
+              "ratio": 0.5,
+              "diff_ratio": -0.0967
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26602",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 62613,
+          "part": 6262,
+          "apply": 56774,
+          "ratio": 0.0364,
+          "diff_ratio": -0.1028,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 62613,
+              "part": 6262,
+              "apply": 56774,
+              "ratio": 1.0,
+              "diff_ratio": -0.1028
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG26603",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 117893,
+          "part": 11790,
+          "apply": 107966,
+          "ratio": 0.0727,
+          "diff_ratio": -0.0919,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 94968,
+              "part": 9497,
+              "apply": 87165,
+              "ratio": 0.75,
+              "diff_ratio": -0.0895
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 22925,
+              "part": 2293,
+              "apply": 20801,
+              "ratio": 0.25,
+              "diff_ratio": -0.1021
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG269",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 50939,
+          "part": 5094,
+          "apply": 46777,
+          "ratio": 0.0364,
+          "diff_ratio": -0.089,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 20749,
+              "part": 2075,
+              "apply": 19267,
+              "ratio": 0.5,
+              "diff_ratio": -0.0769
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 30190,
+              "part": 3019,
+              "apply": 27510,
+              "ratio": 0.5,
+              "diff_ratio": -0.0974
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG270",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 30543,
+          "part": 1909,
+          "apply": 29227,
+          "ratio": 0.0727,
+          "diff_ratio": -0.045,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 20938,
+              "part": 948,
+              "apply": 20498,
+              "ratio": 0.75,
+              "diff_ratio": -0.0215
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9605,
+              "part": 961,
+              "apply": 8729,
+              "ratio": 0.25,
+              "diff_ratio": -0.1004
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG277",
+          "drg_name": "",
+          "counts": 9,
+          "cost": 144885,
+          "part": 7685,
+          "apply": 139911,
+          "ratio": 0.1636,
+          "diff_ratio": -0.0356,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 5,
+              "cost": 87113,
+              "part": 3297,
+              "apply": 85002,
+              "ratio": 0.5556,
+              "diff_ratio": -0.0248
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 4,
+              "cost": 57772,
+              "part": 4388,
+              "apply": 54909,
+              "ratio": 0.4444,
+              "diff_ratio": -0.0521
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG278",
+          "drg_name": "",
+          "counts": 12,
+          "cost": 170051,
+          "part": 17006,
+          "apply": 157113,
+          "ratio": 0.2182,
+          "diff_ratio": -0.0823,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 57020,
+              "part": 5702,
+              "apply": 52589,
+              "ratio": 0.25,
+              "diff_ratio": -0.0843
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 8,
+              "cost": 105605,
+              "part": 10561,
+              "apply": 97587,
+              "ratio": 0.6667,
+              "diff_ratio": -0.0822
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 7426,
+              "part": 743,
+              "apply": 6937,
+              "ratio": 0.0833,
+              "diff_ratio": -0.0705
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG27902",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 24332,
+          "part": 2433,
+          "apply": 22407,
+          "ratio": 0.0364,
+          "diff_ratio": -0.0859,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 2,
+              "cost": 24332,
+              "part": 2433,
+              "apply": 22407,
+              "ratio": 1.0,
+              "diff_ratio": -0.0859
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG280",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 56511,
+          "part": 1540,
+          "apply": 55903,
+          "ratio": 0.0545,
+          "diff_ratio": -0.0109,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 56511,
+              "part": 1540,
+              "apply": 55903,
+              "ratio": 1.0,
+              "diff_ratio": -0.0109
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG281",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 14944,
+          "part": 1495,
+          "apply": 13703,
+          "ratio": 0.0364,
+          "diff_ratio": -0.0906,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 6368,
+              "part": 637,
+              "apply": 5816,
+              "ratio": 0.5,
+              "diff_ratio": -0.0949
+            },
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8576,
+              "part": 858,
+              "apply": 7887,
+              "ratio": 0.5,
+              "diff_ratio": -0.0874
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG282",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 7409,
+          "part": 741,
+          "apply": 6753,
+          "ratio": 0.0182,
+          "diff_ratio": -0.0971,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 7409,
+              "part": 741,
+              "apply": 6753,
+              "ratio": 1.0,
+              "diff_ratio": -0.0971
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG28302",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 8258,
+          "part": 0,
+          "apply": 8512,
+          "ratio": 0.0182,
+          "diff_ratio": 0.0298,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8258,
+              "part": 0,
+              "apply": 8512,
+              "ratio": 1.0,
+              "diff_ratio": 0.0298
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46802",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 15872,
+          "part": 1587,
+          "apply": 14454,
+          "ratio": 0.0182,
+          "diff_ratio": -0.0981,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 100692,
+              "part": 0,
+              "apply": 100946,
+              "ratio": 1.0,
+              "diff_ratio": 0.0025
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 40102,
+              "part": 0,
+              "apply": 40102,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15872,
+              "part": 1587,
+              "apply": 14454,
+              "ratio": 1.0,
+              "diff_ratio": -0.0981
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC10",
+      "mdc_name": "",
+      "counts": 18,
+      "cost": 231246,
+      "part": 15787,
+      "apply": 219439,
+      "ratio": 0.0291,
+      "diff_ratio": -0.0538,
+      "level2": [
+        {
+          "drg_code": "DRG29401",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 11155,
+          "part": 0,
+          "apply": 11324,
+          "ratio": 0.0556,
+          "diff_ratio": 0.0149,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11155,
+              "part": 0,
+              "apply": 11324,
+              "ratio": 1.0,
+              "diff_ratio": 0.0149
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG29402",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 21166,
+          "part": 865,
+          "apply": 20724,
+          "ratio": 0.1111,
+          "diff_ratio": -0.0213,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 21166,
+              "part": 865,
+              "apply": 20724,
+              "ratio": 1.0,
+              "diff_ratio": -0.0213
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG29601",
+          "drg_name": "",
+          "counts": 7,
+          "cost": 84331,
+          "part": 4853,
+          "apply": 80749,
+          "ratio": 0.3889,
+          "diff_ratio": -0.0444,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 7,
+              "cost": 84331,
+              "part": 4853,
+              "apply": 80749,
+              "ratio": 1.0,
+              "diff_ratio": -0.0444
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG29602",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 28187,
+          "part": 1915,
+          "apply": 26695,
+          "ratio": 0.1667,
+          "diff_ratio": -0.0559,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 28187,
+              "part": 1915,
+              "apply": 26695,
+              "ratio": 1.0,
+              "diff_ratio": -0.0559
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG29701",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 18793,
+          "part": 1393,
+          "apply": 17654,
+          "ratio": 0.1111,
+          "diff_ratio": -0.0645,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 4867,
+              "part": 0,
+              "apply": 4952,
+              "ratio": 0.5,
+              "diff_ratio": 0.0172
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 13926,
+              "part": 1393,
+              "apply": 12702,
+              "ratio": 0.5,
+              "diff_ratio": -0.0964
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG29702",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 27731,
+          "part": 2773,
+          "apply": 25466,
+          "ratio": 0.0556,
+          "diff_ratio": -0.0889,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 27731,
+              "part": 2773,
+              "apply": 25466,
+              "ratio": 1.0,
+              "diff_ratio": -0.0889
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG30002",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 25560,
+          "part": 2556,
+          "apply": 23682,
+          "ratio": 0.0556,
+          "diff_ratio": -0.0793,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 25560,
+              "part": 2556,
+              "apply": 23682,
+              "ratio": 1.0,
+              "diff_ratio": -0.0793
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG30101",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 14323,
+          "part": 1432,
+          "apply": 13145,
+          "ratio": 0.0556,
+          "diff_ratio": -0.0896,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14323,
+              "part": 1432,
+              "apply": 13145,
+              "ratio": 1.0,
+              "diff_ratio": -0.0896
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC11",
+      "mdc_name": "",
+      "counts": 70,
+      "cost": 1747051,
+      "part": 134350,
+      "apply": 1639857,
+      "ratio": 0.1131,
+      "diff_ratio": -0.0654,
+      "level2": [
+        {
+          "drg_code": "DRG304",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 45847,
+          "part": 2187,
+          "apply": 43999,
+          "ratio": 0.0286,
+          "diff_ratio": -0.042,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 2,
+              "cost": 45847,
+              "part": 2187,
+              "apply": 43999,
+              "ratio": 1.0,
+              "diff_ratio": -0.042
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG31005",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 113442,
+          "part": 11343,
+          "apply": 102862,
+          "ratio": 0.0429,
+          "diff_ratio": -0.1029,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 3,
+              "cost": 113442,
+              "part": 11343,
+              "apply": 102862,
+              "ratio": 1.0,
+              "diff_ratio": -0.1029
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG31105",
+          "drg_name": "",
+          "counts": 8,
+          "cost": 201967,
+          "part": 20198,
+          "apply": 182533,
+          "ratio": 0.1143,
+          "diff_ratio": -0.1065,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 8,
+              "cost": 201967,
+              "part": 20198,
+              "apply": 182533,
+              "ratio": 1.0,
+              "diff_ratio": -0.1065
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG31502",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 43745,
+          "part": 0,
+          "apply": 43999,
+          "ratio": 0.0143,
+          "diff_ratio": 0.0058,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 43745,
+              "part": 0,
+              "apply": 43999,
+              "ratio": 1.0,
+              "diff_ratio": 0.0058
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG31601",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 75449,
+          "part": 4331,
+          "apply": 71542,
+          "ratio": 0.0286,
+          "diff_ratio": -0.0546,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 75449,
+              "part": 4331,
+              "apply": 71542,
+              "ratio": 1.0,
+              "diff_ratio": -0.0546
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG31603",
+          "drg_name": "",
+          "counts": 11,
+          "cost": 220569,
+          "part": 19803,
+          "apply": 212163,
+          "ratio": 0.1571,
+          "diff_ratio": -0.0396,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 9,
+              "cost": 192887,
+              "part": 17035,
+              "apply": 186741,
+              "ratio": 0.8182,
+              "diff_ratio": -0.0329
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 2,
+              "cost": 27682,
+              "part": 2768,
+              "apply": 25422,
+              "ratio": 0.1818,
+              "diff_ratio": -0.0889
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG31604",
+          "drg_name": "",
+          "counts": 6,
+          "cost": 91452,
+          "part": 8127,
+          "apply": 84850,
+          "ratio": 0.0857,
+          "diff_ratio": -0.0778,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 6,
+              "cost": 91452,
+              "part": 8127,
+              "apply": 84850,
+              "ratio": 1.0,
+              "diff_ratio": -0.0778
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG320",
+          "drg_name": "",
+          "counts": 12,
+          "cost": 325262,
+          "part": 32526,
+          "apply": 296973,
+          "ratio": 0.1714,
+          "diff_ratio": -0.0953,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 11,
+              "cost": 259730,
+              "part": 25973,
+              "apply": 237062,
+              "ratio": 0.9167,
+              "diff_ratio": -0.0956
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 65532,
+              "part": 6553,
+              "apply": 59911,
+              "ratio": 0.0833,
+              "diff_ratio": -0.0938
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG321",
+          "drg_name": "",
+          "counts": 12,
+          "cost": 187440,
+          "part": 16534,
+          "apply": 174378,
+          "ratio": 0.1714,
+          "diff_ratio": -0.0749,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 6,
+              "cost": 107157,
+              "part": 9396,
+              "apply": 99709,
+              "ratio": 0.5,
+              "diff_ratio": -0.0747
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18627,
+              "part": 1863,
+              "apply": 17103,
+              "ratio": 0.0833,
+              "diff_ratio": -0.0891
+            },
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 5,
+              "cost": 61656,
+              "part": 5275,
+              "apply": 57566,
+              "ratio": 0.4167,
+              "diff_ratio": -0.071
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG32202",
+          "drg_name": "",
+          "counts": 4,
+          "cost": 37218,
+          "part": 573,
+          "apply": 37238,
+          "ratio": 0.0571,
+          "diff_ratio": 0.00050,
+          "level3": [
+            {
+              "d9": "04",
+              "div_name": "",
+              "counts": 4,
+              "cost": 37218,
+              "part": 573,
+              "apply": 37238,
+              "ratio": 1.0,
+              "diff_ratio": 0.00050
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG32204",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 17768,
+          "part": 1777,
+          "apply": 16415,
+          "ratio": 0.0143,
+          "diff_ratio": -0.0824,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 17768,
+              "part": 1777,
+              "apply": 16415,
+              "ratio": 1.0,
+              "diff_ratio": -0.0824
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG32301",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 47655,
+          "part": 4766,
+          "apply": 43482,
+          "ratio": 0.0143,
+          "diff_ratio": -0.096,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 47655,
+              "part": 4766,
+              "apply": 43482,
+              "ratio": 1.0,
+              "diff_ratio": -0.096
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG32302",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 30243,
+          "part": 3024,
+          "apply": 27557,
+          "ratio": 0.0286,
+          "diff_ratio": -0.0975,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 2,
+              "cost": 30243,
+              "part": 3024,
+              "apply": 27557,
+              "ratio": 1.0,
+              "diff_ratio": -0.0975
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG32402",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 9365,
+          "part": 937,
+          "apply": 8597,
+          "ratio": 0.0143,
+          "diff_ratio": -0.0893,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9365,
+              "part": 937,
+              "apply": 8597,
+              "ratio": 1.0,
+              "diff_ratio": -0.0893
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG325",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 18610,
+          "part": 1861,
+          "apply": 17003,
+          "ratio": 0.0143,
+          "diff_ratio": -0.0945,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18610,
+              "part": 1861,
+              "apply": 17003,
+              "ratio": 1.0,
+              "diff_ratio": -0.0945
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46801",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 217385,
+          "part": 0,
+          "apply": 218571,
+          "ratio": 0.0143,
+          "diff_ratio": 0.0054,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 77498,
+              "part": 0,
+              "apply": 77498,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 97831,
+              "part": 9783,
+              "apply": 89065,
+              "ratio": 2.0,
+              "diff_ratio": -0.0984
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21971,
+              "part": 2197,
+              "apply": 19774,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 63111,
+              "part": 0,
+              "apply": 63111,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 150231,
+              "part": 15023,
+              "apply": 136055,
+              "ratio": 1.0,
+              "diff_ratio": -0.1042
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 217385,
+              "part": 0,
+              "apply": 218571,
+              "ratio": 1.0,
+              "diff_ratio": 0.0054
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG47701",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 24171,
+          "part": 2417,
+          "apply": 21839,
+          "ratio": 0.0143,
+          "diff_ratio": -0.1068,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 24171,
+              "part": 2417,
+              "apply": 21839,
+              "ratio": 1.0,
+              "diff_ratio": -0.1068
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG47702",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 39463,
+          "part": 3946,
+          "apply": 35856,
+          "ratio": 0.0143,
+          "diff_ratio": -0.1006,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15690,
+              "part": 1569,
+              "apply": 14290,
+              "ratio": 1.0,
+              "diff_ratio": -0.098
+            },
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 11586,
+              "part": 1159,
+              "apply": 10766,
+              "ratio": 1.0,
+              "diff_ratio": -0.0762
+            },
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 39463,
+              "part": 3946,
+              "apply": 35856,
+              "ratio": 1.0,
+              "diff_ratio": -0.1006
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC12",
+      "mdc_name": "",
+      "counts": 3,
+      "cost": 24223,
+      "part": 1755,
+      "apply": 45834,
+      "ratio": 0.0048,
+      "diff_ratio": 0.4715,
+      "level2": [
+        {
+          "drg_code": "DRG349",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 6673,
+          "part": 0,
+          "apply": 15933,
+          "ratio": 0.6667,
+          "diff_ratio": 0.5812,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 2,
+              "cost": 6673,
+              "part": 0,
+              "apply": 15933,
+              "ratio": 1.0,
+              "diff_ratio": 0.5812
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG35001",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 17550,
+          "part": 1755,
+          "apply": 29901,
+          "ratio": 0.3333,
+          "diff_ratio": 0.4131,
+          "level3": [
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 17550,
+              "part": 1755,
+              "apply": 29901,
+              "ratio": 1.0,
+              "diff_ratio": 0.4131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC13",
+      "mdc_name": "",
+      "counts": 2,
+      "cost": 46889,
+      "part": 4689,
+      "apply": 31672,
+      "ratio": 0.0032,
+      "diff_ratio": -0.4805,
+      "level2": [
+        {
+          "drg_code": "DRG36802",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 31619,
+          "part": 3162,
+          "apply": 19648,
+          "ratio": 0.5,
+          "diff_ratio": -0.6093,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 31619,
+              "part": 3162,
+              "apply": 19648,
+              "ratio": 1.0,
+              "diff_ratio": -0.6093
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG36901",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 15270,
+          "part": 1527,
+          "apply": 12024,
+          "ratio": 0.5,
+          "diff_ratio": -0.27,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 15270,
+              "part": 1527,
+              "apply": 12024,
+              "ratio": 1.0,
+              "diff_ratio": -0.27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC16",
+      "mdc_name": "",
+      "counts": 5,
+      "cost": 202507,
+      "part": 20251,
+      "apply": 184290,
+      "ratio": 0.0081,
+      "diff_ratio": -0.0988,
+      "level2": [
+        {
+          "drg_code": "DRG39402",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 23917,
+          "part": 2392,
+          "apply": 21779,
+          "ratio": 0.2,
+          "diff_ratio": -0.0982,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 23917,
+              "part": 2392,
+              "apply": 21779,
+              "ratio": 1.0,
+              "diff_ratio": -0.0982
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG39507",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 121609,
+          "part": 12161,
+          "apply": 110465,
+          "ratio": 0.2,
+          "diff_ratio": -0.1009,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 121609,
+              "part": 12161,
+              "apply": 110465,
+              "ratio": 1.0,
+              "diff_ratio": -0.1009
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG39508",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 23409,
+          "part": 2341,
+          "apply": 21407,
+          "ratio": 0.2,
+          "diff_ratio": -0.0935,
+          "level3": [
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 23409,
+              "part": 2341,
+              "apply": 21407,
+              "ratio": 1.0,
+              "diff_ratio": -0.0935
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG39511",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 24560,
+          "part": 2456,
+          "apply": 22274,
+          "ratio": 0.2,
+          "diff_ratio": -0.1026,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 24560,
+              "part": 2456,
+              "apply": 22274,
+              "ratio": 1.0,
+              "diff_ratio": -0.1026
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG39904",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 9012,
+          "part": 901,
+          "apply": 8365,
+          "ratio": 0.2,
+          "diff_ratio": -0.0773,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 9012,
+              "part": 901,
+              "apply": 8365,
+              "ratio": 1.0,
+              "diff_ratio": -0.0773
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC18",
+      "mdc_name": "",
+      "counts": 28,
+      "cost": 1429347,
+      "part": 97788,
+      "apply": 1342403,
+      "ratio": 0.0452,
+      "diff_ratio": -0.0648,
+      "level2": [
+        {
+          "drg_code": "DRG41501",
+          "drg_name": "",
+          "counts": 10,
+          "cost": 929168,
+          "part": 76282,
+          "apply": 858392,
+          "ratio": 0.3571,
+          "diff_ratio": -0.0825,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 72189,
+              "part": 7219,
+              "apply": 64970,
+              "ratio": 0.1,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 3,
+              "cost": 510562,
+              "part": 55057,
+              "apply": 458555,
+              "ratio": 0.3,
+              "diff_ratio": -0.1134
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 54439,
+              "part": 0,
+              "apply": 54778,
+              "ratio": 0.2,
+              "diff_ratio": 0.0062
+            },
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 4,
+              "cost": 291978,
+              "part": 14006,
+              "apply": 280089,
+              "ratio": 0.4,
+              "diff_ratio": -0.0424
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG41601",
+          "drg_name": "",
+          "counts": 13,
+          "cost": 290519,
+          "part": 19829,
+          "apply": 274672,
+          "ratio": 0.4643,
+          "diff_ratio": -0.0577,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 12,
+              "cost": 283882,
+              "part": 19165,
+              "apply": 268614,
+              "ratio": 0.9231,
+              "diff_ratio": -0.0568
+            },
+            {
+              "d9": "08",
+              "div_name": "",
+              "counts": 1,
+              "cost": 6637,
+              "part": 664,
+              "apply": 6058,
+              "ratio": 0.0769,
+              "diff_ratio": -0.0956
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG41602",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 7935,
+          "part": 794,
+          "apply": 7226,
+          "ratio": 0.0357,
+          "diff_ratio": -0.0981,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 7935,
+              "part": 794,
+              "apply": 7226,
+              "ratio": 1.0,
+              "diff_ratio": -0.0981
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG41603",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 132620,
+          "part": 0,
+          "apply": 132620,
+          "ratio": 0.0357,
+          "diff_ratio": 0.0,
+          "level3": [
+            {
+              "d9": "AC",
+              "div_name": "",
+              "counts": 1,
+              "cost": 132620,
+              "part": 0,
+              "apply": 132620,
+              "ratio": 1.0,
+              "diff_ratio": 0.0
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG41804",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 8831,
+          "part": 883,
+          "apply": 8202,
+          "ratio": 0.0357,
+          "diff_ratio": -0.0767,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8831,
+              "part": 883,
+              "apply": 8202,
+              "ratio": 1.0,
+              "diff_ratio": -0.0767
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG419",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 60274,
+          "part": 0,
+          "apply": 61291,
+          "ratio": 0.0714,
+          "diff_ratio": 0.0166,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 2,
+              "cost": 60274,
+              "part": 0,
+              "apply": 61291,
+              "ratio": 1.0,
+              "diff_ratio": 0.0166
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC21",
+      "mdc_name": "",
+      "counts": 12,
+      "cost": 170434,
+      "part": 15722,
+      "apply": 156998,
+      "ratio": 0.0194,
+      "diff_ratio": -0.0856,
+      "level2": [
+        {
+          "drg_code": "DRG44102",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 14987,
+          "part": 1499,
+          "apply": 13657,
+          "ratio": 0.0833,
+          "diff_ratio": -0.0974,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 14987,
+              "part": 1499,
+              "apply": 13657,
+              "ratio": 1.0,
+              "diff_ratio": -0.0974
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG442",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 48136,
+          "part": 4813,
+          "apply": 43916,
+          "ratio": 0.1667,
+          "diff_ratio": -0.0961,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 27612,
+              "part": 2761,
+              "apply": 25190,
+              "ratio": 0.5,
+              "diff_ratio": -0.0961
+            },
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 20524,
+              "part": 2052,
+              "apply": 18726,
+              "ratio": 0.5,
+              "diff_ratio": -0.096
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG443",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 39186,
+          "part": 3919,
+          "apply": 35945,
+          "ratio": 0.1667,
+          "diff_ratio": -0.0902,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 13376,
+              "part": 1338,
+              "apply": 12292,
+              "ratio": 0.5,
+              "diff_ratio": -0.0882
+            },
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 25810,
+              "part": 2581,
+              "apply": 23653,
+              "ratio": 0.5,
+              "diff_ratio": -0.0912
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG44702",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 8753,
+          "part": 875,
+          "apply": 8047,
+          "ratio": 0.0833,
+          "diff_ratio": -0.0877,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 8753,
+              "part": 875,
+              "apply": 8047,
+              "ratio": 1.0,
+              "diff_ratio": -0.0877
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG44901",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 17741,
+          "part": 1774,
+          "apply": 16136,
+          "ratio": 0.0833,
+          "diff_ratio": -0.0995,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 17741,
+              "part": 1774,
+              "apply": 16136,
+              "ratio": 1.0,
+              "diff_ratio": -0.0995
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG44902",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 10189,
+          "part": 1019,
+          "apply": 9170,
+          "ratio": 0.0833,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 10189,
+              "part": 1019,
+              "apply": 9170,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG45001",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 18240,
+          "part": 1823,
+          "apply": 16756,
+          "ratio": 0.25,
+          "diff_ratio": -0.0886,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 3,
+              "cost": 18240,
+              "part": 1823,
+              "apply": 16756,
+              "ratio": 1.0,
+              "diff_ratio": -0.0886
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG45002",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 13202,
+          "part": 0,
+          "apply": 13371,
+          "ratio": 0.0833,
+          "diff_ratio": 0.0126,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 13202,
+              "part": 0,
+              "apply": 13371,
+              "ratio": 1.0,
+              "diff_ratio": 0.0126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC22",
+      "mdc_name": "",
+      "counts": 1,
+      "cost": 22183,
+      "part": 0,
+      "apply": 22437,
+      "ratio": 0.0016,
+      "diff_ratio": 0.0113,
+      "level2": [
+        {
+          "drg_code": "DRG51104",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 22183,
+          "part": 0,
+          "apply": 22437,
+          "ratio": 1.0,
+          "diff_ratio": 0.0113,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 22183,
+              "part": 0,
+              "apply": 22437,
+              "ratio": 1.0,
+              "diff_ratio": 0.0113
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC23",
+      "mdc_name": "",
+      "counts": 5,
+      "cost": 94763,
+      "part": 8788,
+      "apply": 86737,
+      "ratio": 0.0081,
+      "diff_ratio": -0.0925,
+      "level2": [
+        {
+          "drg_code": "DRG463",
+          "drg_name": "",
+          "counts": 3,
+          "cost": 69054,
+          "part": 6905,
+          "apply": 62742,
+          "ratio": 0.6,
+          "diff_ratio": -0.1006,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 21962,
+              "part": 2196,
+              "apply": 19766,
+              "ratio": 0.3333,
+              "diff_ratio": -0.1111
+            },
+            {
+              "d9": "12",
+              "div_name": "",
+              "counts": 1,
+              "cost": 27588,
+              "part": 2759,
+              "apply": 25168,
+              "ratio": 0.3333,
+              "diff_ratio": -0.0962
+            },
+            {
+              "d9": "AB",
+              "div_name": "",
+              "counts": 1,
+              "cost": 19504,
+              "part": 1950,
+              "apply": 17808,
+              "ratio": 0.3333,
+              "diff_ratio": -0.0952
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG464",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 18833,
+          "part": 1883,
+          "apply": 16950,
+          "ratio": 0.2,
+          "diff_ratio": -0.1111,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 18833,
+              "part": 1883,
+              "apply": 16950,
+              "ratio": 1.0,
+              "diff_ratio": -0.1111
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG46602",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 6876,
+          "part": 0,
+          "apply": 7045,
+          "ratio": 0.2,
+          "diff_ratio": 0.024,
+          "level3": [
+            {
+              "d9": "03",
+              "div_name": "",
+              "counts": 1,
+              "cost": 6876,
+              "part": 0,
+              "apply": 7045,
+              "ratio": 1.0,
+              "diff_ratio": 0.024
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC24",
+      "mdc_name": "",
+      "counts": 5,
+      "cost": 863952,
+      "part": 10652,
+      "apply": 855673,
+      "ratio": 0.0081,
+      "diff_ratio": -0.0097,
+      "level2": [
+        {
+          "drg_code": "DRG48401",
+          "drg_name": "",
+          "counts": 2,
+          "cost": 640625,
+          "part": 0,
+          "apply": 641811,
+          "ratio": 0.4,
+          "diff_ratio": 0.0018,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 2,
+              "cost": 640625,
+              "part": 0,
+              "apply": 641811,
+              "ratio": 1.0,
+              "diff_ratio": 0.0018
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG48601",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 55863,
+          "part": 5586,
+          "apply": 50701,
+          "ratio": 0.2,
+          "diff_ratio": -0.1018,
+          "level3": [
+            {
+              "d9": "06",
+              "div_name": "",
+              "counts": 1,
+              "cost": 55863,
+              "part": 5586,
+              "apply": 50701,
+              "ratio": 1.0,
+              "diff_ratio": -0.1018
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG48602",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 116803,
+          "part": 0,
+          "apply": 117142,
+          "ratio": 0.2,
+          "diff_ratio": 0.0029,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 116803,
+              "part": 0,
+              "apply": 117142,
+              "ratio": 1.0,
+              "diff_ratio": 0.0029
+            }
+          ]
+        },
+        {
+          "drg_code": "DRG48701",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 50661,
+          "part": 5066,
+          "apply": 46019,
+          "ratio": 0.2,
+          "diff_ratio": -0.1009,
+          "level3": [
+            {
+              "d9": "07",
+              "div_name": "",
+              "counts": 1,
+              "cost": 50661,
+              "part": 5066,
+              "apply": 46019,
+              "ratio": 1.0,
+              "diff_ratio": -0.1009
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mdc_code": "MDC25",
+      "mdc_name": "",
+      "counts": 1,
+      "cost": 19328,
+      "part": 1933,
+      "apply": 17480,
+      "ratio": 0.0016,
+      "diff_ratio": -0.1057,
+      "level2": [
+        {
+          "drg_code": "DRGZZZ",
+          "drg_name": "",
+          "counts": 1,
+          "cost": 19328,
+          "part": 1933,
+          "apply": 17480,
+          "ratio": 1.0,
+          "diff_ratio": -0.1057,
+          "level3": [
+            {
+              "d9": "02",
+              "div_name": "",
+              "counts": 1,
+              "cost": 19328,
+              "part": 1933,
+              "apply": 17480,
+              "ratio": 1.0,
+              "diff_ratio": -0.1057
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

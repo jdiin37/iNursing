@@ -1,0 +1,4 @@
+{
+  "baseURL":"http://172.168.1.60:8888",
+  "FormViewer_url":"http://172.168.1.60:8888/iFormSys/form-template/"
+}

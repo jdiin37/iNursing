@@ -1,0 +1,5 @@
+{
+  "Version_Font": "v1.1.0",
+  "baseURL":"http://192.168.0.228:8080",
+  "FormViewer_url":"http://192.168.0.228:8080/iFormSys/form-template/"
+}

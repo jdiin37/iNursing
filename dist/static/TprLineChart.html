@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script><!-- 趨勢圖使用 -->
+
+</head>
+<body>
+<div id="app">
+  <v-app>
+    <v-content>
+      <v-card flat >
+          <v-card-text id="TprContent">
+            <v-select
+              hide-actions
+              v-model="tprChecked"
+              :items="TPRChartsItems"
+              chips
+              label="趨勢圖"
+              multiple
+            ></v-select>
+            <div  class="chart-container"> <!-- class="chart-container" -->
+              <line-chart :height="chartHeight"  :chart-data="tprChartData" :options="tprOptions"></line-chart>
+            </div>
+          </v-card-text>
+        </v-card>
+    </v-content>
+  </v-app>
+</div>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+<script src="https://unpkg.com/vue"></script>
+<!--<script src="https://unpkg.com/http-vue-loader"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="TprLineChart.js"></script>
+<!--<script src="https://unpkg.com/vue-chartjs@2.8.7/dist/vue-chartjs.full.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-chartjs/3.3.2/vue-chartjs.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-chartjs/3.3.2/vue-chartjs.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.1.0"></script>
+<script>
+  Vue.config.productionTip = false
+  Vue.component('line-chart', {
+    extends: VueChartJs.Line,
+    mixins:[VueChartJs.mixins.reactiveProp],
+    props: ['chartData','options'],
+    mounted () {
+      this.renderChart(this.chartData,this.options);
+    },
+  })
+
+
+   new Vue(
+    { el: '#app',
+      data(){
+        return{
+          chartHeight:200,
+          tprChecked:[],//selected
+          tprChartData:null,
+          tprOptions:null,
+          tprChartNo:912473,
+          tprSerno:107689,
+          baseUrl:'',
+          TPRChartList:[],
+          TPRChartsItems:[ //selection
+            { text: '體溫' ,value:'temperature'},
+            { text: '脈搏' ,value:'pulse'},
+            { text: '呼吸' ,value:'respiration'},
+            { text: '收縮壓' ,value:'systolicPressure'},
+            { text: '舒張壓' ,value:'diastolicPressure'},
+            { text: '體重' ,value:'weight'},
+            { text: '注射量' ,value:'ivFluids'},
+            { text: '飲食量' ,value:'diet'},
+            { text: '輸血量' ,value:'bleed'},
+            { text: '小便量' ,value:'urine'},
+            { text: '引流量' ,value:'drainage'},
+          ],
+          TObj:{},
+          PObj:{},
+          RObj:{},
+          SpObj:{},
+          DpObj:{},
+          WeightObj:{},
+          IvFObj:{},
+          DietObj:{},
+          BleedObj:{},
+          UrineObj:{},
+          DrainageObj:{},
+        }
+      },
+      created(){
+        // console.log('TprLineChart.html created')
+        this.axios_getTprChartData();
+      },
+      mounted() {
+        // console.log('TprLineChart.html mounted');
+        window.onresize = function(event) {
+          var userHeight = window.innerHeight
+            || document.documentElement.clientHeight
+            || document.body.clientHeight;
+          // var userWidth = window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
+          var canvas = document.getElementById("line-chart");
+          var TprContent = document.getElementById('TprContent');
+          if(canvas){
+            var height = userHeight-(110)
+            TprContent.style.height = userHeight + 'px';
+            this.chartHeight = height-130;
+          }
+
+        };
+      },
+      watch:{
+        'tprChecked':function (val) {  //監聽頁籤3 select multiple checkBox
+          var datasets = [];
+          var checkItem=[];
+          if(val.length>0){ //使用者勾選項目
+            var inputField = ["bleed", "diastolicPressure", "diet", "drainage", "ivFluids", "pulse", "respiration", "systolicPressure", "temperature", "urine", "weight"];
+            var allObj = [this.BleedObj,this.DpObj,this.DietObj,this.DrainageObj,this.IvFObj,this.PObj,this.RObj,this.SpObj,this.TObj,this.UrineObj,this.WeightObj];
+            for (var i=0;i<val.length;i++){
+              var checkIndex = inputField.findIndex(item => item === val[i]);
+              checkItem.push(checkIndex);
+              datasets.push(allObj[checkIndex]);
+            }
+
+            this.fillChartData(this.xLabels,datasets);
+          }else {
+            var datasets = [];
+            var checkItem=[];
+            this.fillChartData(this.xLabels,datasets);
+          }
+
+        }
+      },
+      methods:{
+        initChartData:function(){
+          this.tprChartData={},
+          this.tprOptions = {},
+          this.TPRChartList=[];
+          this.xLabels = [];
+          this.TObj={};
+          this.PObj={};
+          this.RObj={};
+          this.SpObj= {};
+          this.DpObj = {};
+          this.WeightObj={};
+          this.IvFObj={};
+          this.DietObj={};
+          this.BleedObj={};
+          this.UrineObj = {};
+          this.DrainageObj={};
+        },
+        getUrlKey:function(name){
+          return decodeURIComponent((new RegExp('[?|&]'+name+'='+'([^&;]+?)(&|#|;|$)').exec(location.href)||[,""])[1].replace(/\+/g,'%20'))||null;
+        },
+        axios_getTprChartData: function () { //取得TPR 曲線圖資料
+          this.tprChartNo = this.getUrlKey('chartNo');
+          this.tprSerno = this.getUrlKey('serno');
+          this.baseUrl = this.getUrlKey('url')
+          this.initChartData();
+          if(this.tprChartNo==null||this.tprSerno==null){
+              alert('請輸入 ip & 病歷號 & 住院序號')
+          }else { //172.168.1.60:8888
+            let url = "http://"+this.baseUrl+"/iNursingSrv/rest/tprrecordchart/bychartnoserno/" + this.tprChartNo + "/" + this.tprSerno;
+            axios.get(url)
+              .then(response =>{
+                this.TPRChartList = response.data.resultSet;
+                this.setChartObjData(this.TPRChartList);
+
+                var userHeight = window.innerHeight
+                  || document.documentElement.clientHeight
+                  || document.body.clientHeight;
+                var userWidth = window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
+                var TprContent = document.getElementById('TprContent');
+                var canvas = document.getElementById("line-chart");
+                //
+                var height = userHeight-(110)
+                this.chartHeight = height-130;
+
+                if(canvas){
+                  TprContent.style.height = userHeight + 'px';
+
+                  // canvas.setAttribute('style','height:'+this.chartHeight+'px;width:'+(userWidth-50)+'px');
+                  // canvas.setAttribute('style','height:'+this.chartHeight+'px;width:'+userWidth+'px');
+                }
+              })
+              .catch(error =>  {
+                try {
+                  console.log(error.response.data.message);
+                } catch(err) {
+
+                }
+              });
+          }
+
+        },
+        getXLabelDate(tprChartList){ //取得 X軸日期 Labels
+          return renderRecordDateColName(tprChartList);
+        },
+        setChartObjData:function(tprChartList){ //頁籤3 多選
+          this.xLabels = this.getXLabelDate(tprChartList);
+          //data Array
+          var tArray = [];
+          var pArray = [];
+          var rArray = [];
+          var spArray =[];
+          var dpArray = [];
+          var weightArray = [];
+          var ifArray = [];//注射量
+          var bleedArray = [];//輸血量
+          var urineArray = [];//Urine
+          var dietArray = [];//飲食量
+          var drainageArray = [];//引流量
+
+          for(var i=0;i<tprChartList.length;i++){
+            tArray.push(tprChartList[i].temperature==0?null:tprChartList[i].temperature);
+            pArray.push(tprChartList[i].pulse==0?null:tprChartList[i].pulse);
+            rArray.push(tprChartList[i].respiration==0?null:tprChartList[i].respiration);
+
+            spArray.push(tprChartList[i].systolicPressure==0?null:tprChartList[i].systolicPressure);//收縮壓
+            dpArray.push(tprChartList[i].diastolicPressure==0?null:tprChartList[i].diastolicPressure);//舒張壓
+            weightArray.push(tprChartList[i].weight==0?null:tprChartList[i].weight);//體重
+
+            ifArray.push(tprChartList[i].ivFluids);//注射量
+            bleedArray.push(tprChartList[i].bleed);//輸血量
+            urineArray.push(tprChartList[i].urine);//Urine
+            dietArray.push(tprChartList[i].diet); //飲食量
+            drainageArray.push(tprChartList[i].drainage);//引流
+
+          }
+          //Label
+          var tLabel = "體溫";
+          var pLabel = "脈搏";
+          var rLabel = "呼吸";
+          var spLabel = "收縮壓";
+          var dpLable = "舒張壓";
+          var weightLabel = "體重";
+          var ivFLabel = '注射量';
+          var dietLabel = '飲食量';
+          var bleedLabel = '輸血量';
+          var urineLabel = '小便量';
+          var drainageLabel = '引流量';
+
+          //Color
+          var tColor = "#2259CA";
+          var pColor = "#F13967";
+          var rColor = "#292929";
+          var spColor = "#088DBA";
+          var dpColor = "#139B53";
+          var weightColor = "#442978";
+          var ivFColor = "#868686";
+          var dietColor = "#FFCE43";
+          var bleedColor = "#FF1705";
+          var urineColor = '#F15A24';
+          var drainageColor = '#A8C023';
+
+
+          //T
+          var tObj = new  datasets(tLabel,tArray,tColor);
+          //P
+          var pObj = new datasets(pLabel,pArray,pColor);
+          //R
+          var rObj = new datasets(rLabel,rArray,rColor);
+          //SP
+          var spObj = new datasets(spLabel,spArray,spColor);
+          //DP
+          var dpObj = new datasets(dpLable,dpArray,dpColor);
+          //Weight
+          var weightObj = new  datasets(weightLabel,weightArray,weightColor);
+          //注射量
+          var ivFObj = new  datasets(ivFLabel,ifArray,ivFColor);
+          //飲食量
+          var dietObj = new  datasets(dietLabel,dietArray,dietColor);
+          //輸血量
+          var bleedObj = new datasets(bleedLabel,bleedArray,bleedColor);
+          //小便量
+          var urineObj = new datasets(urineLabel,urineArray,urineColor);
+          //引流量
+          var drainageObj = new datasets(drainageLabel,drainageArray,drainageColor);
+
+          this.TObj = tObj;
+          this.PObj = pObj;
+          this.RObj = rObj;
+          this.SpObj = spObj;
+          this.DpObj = dpObj;
+          this.WeightObj = weightObj;
+          this.IvFObj = ivFObj;
+          this.DietObj = dietObj;
+          this.BleedObj = bleedObj;
+          this.UrineObj = urineObj;
+          this.DrainageObj = drainageObj;
+
+        },
+        fillChartData(labels,datasets){ //頁籤3 多選
+          this.tprChartData = {
+            // scaleShowGridLines : true,
+            maintainAspectRatio: false,
+            responsive: true,
+            datasetStroke : true,
+            showDatasetLabels : true,
+            animation:true,
+            animationSteps:200,
+            // The type of chart we want to create
+            type: 'line',
+            pointDot: true,
+            pointDotRadius: 12,
+            pointDotStrokeWidth: 16,
+            labels: labels,
+            datasets:datasets
+          },
+          this.tprOptions = {
+            plugins: {
+              datalabels: {
+                align	: 'top',
+                anchor : 'bottom',
+                display: true, //隱藏,顯示 線 上的 dataLable數值
+                font: {
+                  weight: 'bold',
+                  size: 16,
+                },
+
+              },
+            },
+            spanGaps: true,//不斷線 1070411
+            elements:{
+              line:{
+                tension:0,
+                fill: false,
+                pointStyle: 'circle',
+              }
+            },
+            tooltips:{
+              mode:'point',
+              borderWidth:100,
+              titleFontSize:16,
+              titleSpacing:10,
+              backgroundColor:'black',
+              titleFontColor:'#fff',
+              bodyFontSize:16,
+              bodySpacing:2
+            },
+            title:{
+              display:false,
+              text:"檢驗趨勢圖",
+              position:'top',
+              fontSize: 20,
+            },
+            layout:{
+              padding:{
+                left:10,
+                right:10,
+                top:10,
+                bottom:10
+              }
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  fontSize: 16,
+                }
+              }],
+              yAxes: [{
+                display: true,
+                // stacked: true, //PS. 如果使用線標示的數據會錯誤
+                beginAtZero:true,
+                ticks: {
+                  beginAtZero: false,
+                },
+              }]
+            },
+//						          plotOptions: { series: { connectNulls: true } }, //1070411 add 預防斷線
+            legend:{
+              position:'top',
+              padding:{
+                left:10,
+                right:10,
+                top:10,
+                bottom:10
+              },
+              labels:{
+                boxWidth:15,
+//							       fontColor:'black',
+                fontSize: 18,
+                //fontColor:'rbg(60,180,100)'
+              }
+
+            }
+          }
+
+
+        },
+      }
+    })
+</script>
+<style>
+
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 90vh;
+    width: 90vw;
+  }
+  #TprContent{
+    overflow-y: auto;
+  }
+
+</style>
+</body>
+</html>

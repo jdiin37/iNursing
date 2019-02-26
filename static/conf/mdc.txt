@@ -1,0 +1,195 @@
+{
+  "status": "Success",
+  "resultSet": [
+    {
+      "mdc_code": "MDC01",
+      "mdc_name": "",
+      "counts": 67,
+      "cost": 2663045,
+      "part": 85485,
+      "apply": 2253443,
+      "ratio": 0.1082,
+      "diff_ratio": -0.1818
+    },
+    {
+      "mdc_code": "MDC03",
+      "mdc_name": "",
+      "counts": 28,
+      "cost": 419934,
+      "part": 28756,
+      "apply": 399059,
+      "ratio": 0.0452,
+      "diff_ratio": -0.0523
+    },
+    {
+      "mdc_code": "MDC04",
+      "mdc_name": "",
+      "counts": 114,
+      "cost": 5448878,
+      "part": 148176,
+      "apply": 4921767,
+      "ratio": 0.1842,
+      "diff_ratio": -0.1071
+    },
+    {
+      "mdc_code": "MDC05",
+      "mdc_name": "",
+      "counts": 40,
+      "cost": 3081363,
+      "part": 278979,
+      "apply": 2869442,
+      "ratio": 0.0646,
+      "diff_ratio": -0.0739
+    },
+    {
+      "mdc_code": "MDC06",
+      "mdc_name": "",
+      "counts": 62,
+      "cost": 1916360,
+      "part": 154613,
+      "apply": 1757562,
+      "ratio": 0.1002,
+      "diff_ratio": -0.0904
+    },
+    {
+      "mdc_code": "MDC07",
+      "mdc_name": "",
+      "counts": 29,
+      "cost": 897339,
+      "part": 73287,
+      "apply": 847339,
+      "ratio": 0.0468,
+      "diff_ratio": -0.059
+    },
+    {
+      "mdc_code": "MDC08",
+      "mdc_name": "",
+      "counts": 74,
+      "cost": 3601713,
+      "part": 314038,
+      "apply": 3636604,
+      "ratio": 0.1195,
+      "diff_ratio": 0.0096
+    },
+    {
+      "mdc_code": "MDC09",
+      "mdc_name": "",
+      "counts": 55,
+      "cost": 1089323,
+      "part": 91788,
+      "apply": 1015325,
+      "ratio": 0.0889,
+      "diff_ratio": -0.0729
+    },
+    {
+      "mdc_code": "MDC10",
+      "mdc_name": "",
+      "counts": 18,
+      "cost": 231246,
+      "part": 15787,
+      "apply": 219439,
+      "ratio": 0.0291,
+      "diff_ratio": -0.0538
+    },
+    {
+      "mdc_code": "MDC11",
+      "mdc_name": "",
+      "counts": 70,
+      "cost": 1747051,
+      "part": 134350,
+      "apply": 1639857,
+      "ratio": 0.1131,
+      "diff_ratio": -0.0654
+    },
+    {
+      "mdc_code": "MDC12",
+      "mdc_name": "",
+      "counts": 3,
+      "cost": 24223,
+      "part": 1755,
+      "apply": 45834,
+      "ratio": 0.0048,
+      "diff_ratio": 0.4715
+    },
+    {
+      "mdc_code": "MDC13",
+      "mdc_name": "",
+      "counts": 2,
+      "cost": 46889,
+      "part": 4689,
+      "apply": 31672,
+      "ratio": 0.0032,
+      "diff_ratio": -0.4805
+    },
+    {
+      "mdc_code": "MDC16",
+      "mdc_name": "",
+      "counts": 5,
+      "cost": 202507,
+      "part": 20251,
+      "apply": 184290,
+      "ratio": 0.0081,
+      "diff_ratio": -0.0988
+    },
+    {
+      "mdc_code": "MDC18",
+      "mdc_name": "",
+      "counts": 28,
+      "cost": 1429347,
+      "part": 97788,
+      "apply": 1342403,
+      "ratio": 0.0452,
+      "diff_ratio": -0.0648
+    },
+    {
+      "mdc_code": "MDC21",
+      "mdc_name": "",
+      "counts": 12,
+      "cost": 170434,
+      "part": 15722,
+      "apply": 156998,
+      "ratio": 0.0194,
+      "diff_ratio": -0.0856
+    },
+    {
+      "mdc_code": "MDC22",
+      "mdc_name": "",
+      "counts": 1,
+      "cost": 22183,
+      "part": 0,
+      "apply": 22437,
+      "ratio": 0.0016,
+      "diff_ratio": 0.0113
+    },
+    {
+      "mdc_code": "MDC23",
+      "mdc_name": "",
+      "counts": 5,
+      "cost": 94763,
+      "part": 8788,
+      "apply": 86737,
+      "ratio": 0.0081,
+      "diff_ratio": -0.0925
+    },
+    {
+      "mdc_code": "MDC24",
+      "mdc_name": "",
+      "counts": 5,
+      "cost": 863952,
+      "part": 10652,
+      "apply": 855673,
+      "ratio": 0.0081,
+      "diff_ratio": -0.0097
+    },
+    {
+      "mdc_code": "MDC25",
+      "mdc_name": "",
+      "counts": 1,
+      "cost": 19328,
+      "part": 1933,
+      "apply": 17480,
+      "ratio": 0.0016,
+      "diff_ratio": -0.1057
+    }
+  ]
+}
